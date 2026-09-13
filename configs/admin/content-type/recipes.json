@@ -1,0 +1,507 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\ContentType",
+    "arguments": [],
+    "properties": {
+        "name": "recipes",
+        "pluralName": "Recettes",
+        "singularName": "Recette",
+        "icon": "fa fa-cutlery",
+        "description": null,
+        "indexTwig": null,
+        "extra": null,
+        "deleted": false,
+        "askForOuuid": false,
+        "color": null,
+        "fieldType": {
+            "class": "EMS\\CoreBundle\\Entity\\FieldType",
+            "arguments": [],
+            "properties": {
+                "type": "EMS\\CoreBundle\\Form\\DataField\\ContainerFieldType",
+                "name": "source",
+                "contentType": null,
+                "deleted": false,
+                "description": null,
+                "options": {
+                    "displayOptions": {
+                        "label": null,
+                        "class": null,
+                        "lastOfRow": false,
+                        "helptext": null,
+                        "icon": null,
+                        "language": null
+                    },
+                    "restrictionOptions": {
+                        "minimum_role": null
+                    },
+                    "extraOptions": {
+                        "description": null,
+                        "extra": null,
+                        "clear_on_copy": false,
+                        "postProcessing": null
+                    }
+                },
+                "orderKey": 0,
+                "children": [
+                    {
+                        "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                        "arguments": [],
+                        "properties": {
+                            "type": "EMS\\CoreBundle\\Form\\DataField\\TextStringFieldType",
+                            "name": "name",
+                            "contentType": null,
+                            "deleted": false,
+                            "description": null,
+                            "options": {
+                                "displayOptions": {
+                                    "label": "Nom",
+                                    "class": "col-md-12",
+                                    "lastOfRow": false,
+                                    "helptext": null,
+                                    "prefixIcon": null,
+                                    "prefixText": null,
+                                    "suffixIcon": null,
+                                    "suffixText": null,
+                                    "placeholder": null,
+                                    "icon": null
+                                },
+                                "mappingOptions": {
+                                    "analyzer": null,
+                                    "copy_to": null
+                                },
+                                "restrictionOptions": {
+                                    "mandatory": true,
+                                    "mandatory_if": null,
+                                    "minimum_role": null
+                                },
+                                "extraOptions": {
+                                    "description": "Nom de la recette",
+                                    "extra": null,
+                                    "clear_on_copy": false,
+                                    "postProcessing": null
+                                },
+                                "raw_data": [],
+                                "migrationOptions": {
+                                    "protected": false
+                                }
+                            },
+                            "orderKey": 0,
+                            "children": []
+                        },
+                        "replaced": []
+                    },
+                    {
+                        "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                        "arguments": [],
+                        "properties": {
+                            "type": "EMS\\CoreBundle\\Form\\DataField\\ChoiceFieldType",
+                            "name": "type",
+                            "contentType": null,
+                            "deleted": false,
+                            "description": null,
+                            "options": {
+                                "displayOptions": {
+                                    "label": "Type de recette",
+                                    "class": "col-md-4",
+                                    "lastOfRow": false,
+                                    "helptext": null,
+                                    "multiple": false,
+                                    "expanded": false,
+                                    "select2": false,
+                                    "choices": "main\nstarter\nsnack\nsauce\ndessert\nsoup",
+                                    "labels": "Plat principal\nEntr\u00e9e\nEn-cas\nSauce\nDessert\nSoupe",
+                                    "placeholder": null,
+                                    "linked_collection": null,
+                                    "collection_label_field": null
+                                },
+                                "mappingOptions": {
+                                    "analyzer": "keyword",
+                                    "copy_to": null
+                                },
+                                "restrictionOptions": {
+                                    "mandatory": true,
+                                    "mandatory_if": null,
+                                    "minimum_role": null
+                                },
+                                "extraOptions": {
+                                    "description": "Type de recette",
+                                    "extra": null,
+                                    "clear_on_copy": false,
+                                    "postProcessing": null
+                                },
+                                "raw_data": [],
+                                "migrationOptions": {
+                                    "protected": false
+                                }
+                            },
+                            "orderKey": 1,
+                            "children": []
+                        },
+                        "replaced": []
+                    },
+                    {
+                        "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                        "arguments": [],
+                        "properties": {
+                            "type": "EMS\\CoreBundle\\Form\\DataField\\IntegerFieldType",
+                            "name": "for_how_many_people",
+                            "contentType": null,
+                            "deleted": false,
+                            "description": null,
+                            "options": {
+                                "displayOptions": {
+                                    "label": "Pour combien de personnes",
+                                    "class": "col-md-4",
+                                    "lastOfRow": false,
+                                    "helptext": null
+                                },
+                                "mappingOptions": {
+                                    "copy_to": null
+                                },
+                                "restrictionOptions": {
+                                    "mandatory": true,
+                                    "mandatory_if": null,
+                                    "minimum_role": null
+                                },
+                                "extraOptions": {
+                                    "description": "D\u00e9finis pour combien de personne sont pr\u00e9vu les quantit\u00e9s de cette recette",
+                                    "extra": null,
+                                    "clear_on_copy": false,
+                                    "postProcessing": null
+                                },
+                                "raw_data": [],
+                                "migrationOptions": {
+                                    "protected": false
+                                }
+                            },
+                            "orderKey": 2,
+                            "children": []
+                        },
+                        "replaced": []
+                    },
+                    {
+                        "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                        "arguments": [],
+                        "properties": {
+                            "type": "EMS\\CoreBundle\\Form\\DataField\\IntegerFieldType",
+                            "name": "duration",
+                            "contentType": null,
+                            "deleted": false,
+                            "description": null,
+                            "options": {
+                                "displayOptions": {
+                                    "label": "Dur\u00e9e de pr\u00e9paration",
+                                    "class": "col-md-4",
+                                    "lastOfRow": true,
+                                    "helptext": "en minutes"
+                                },
+                                "mappingOptions": {
+                                    "copy_to": null
+                                },
+                                "restrictionOptions": {
+                                    "mandatory": false,
+                                    "mandatory_if": null,
+                                    "minimum_role": null
+                                },
+                                "extraOptions": {
+                                    "description": "Dur\u00e9e de pr\u00e9paration en minutes",
+                                    "extra": null,
+                                    "clear_on_copy": false,
+                                    "postProcessing": null
+                                },
+                                "raw_data": [],
+                                "migrationOptions": {
+                                    "protected": false
+                                }
+                            },
+                            "orderKey": 3,
+                            "children": []
+                        },
+                        "replaced": []
+                    },
+                    {
+                        "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                        "arguments": [],
+                        "properties": {
+                            "type": "EMS\\CoreBundle\\Form\\DataField\\CollectionFieldType",
+                            "name": "ingredients",
+                            "contentType": null,
+                            "deleted": false,
+                            "description": null,
+                            "options": {
+                                "displayOptions": {
+                                    "label": "Ingr\u00e9dients",
+                                    "class": "col-md-12",
+                                    "lastOfRow": false,
+                                    "helptext": null,
+                                    "singularLabel": null,
+                                    "itemBootstrapClass": null,
+                                    "labelField": null,
+                                    "icon": null,
+                                    "collapsible": false,
+                                    "sortable": false
+                                },
+                                "mappingOptions": {
+                                    "renumbering": true
+                                },
+                                "restrictionOptions": {
+                                    "minimum_role": null,
+                                    "min": null,
+                                    "max": null
+                                },
+                                "extraOptions": {
+                                    "description": "Liste des ingr\u00e9dients de la recette pour le nombre de personne pr\u00e9vu.",
+                                    "extra": null,
+                                    "clear_on_copy": false,
+                                    "postProcessing": null
+                                },
+                                "raw_data": [],
+                                "migrationOptions": {
+                                    "protected": false
+                                }
+                            },
+                            "orderKey": 4,
+                            "children": [
+                                {
+                                    "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                                    "arguments": [],
+                                    "properties": {
+                                        "type": "EMS\\CoreBundle\\Form\\DataField\\NumberFieldType",
+                                        "name": "quantity",
+                                        "contentType": null,
+                                        "deleted": false,
+                                        "description": null,
+                                        "options": {
+                                            "displayOptions": {
+                                                "label": "Quantit\u00e9",
+                                                "class": "col-md-3",
+                                                "lastOfRow": false,
+                                                "helptext": null
+                                            },
+                                            "mappingOptions": [],
+                                            "restrictionOptions": {
+                                                "mandatory": false,
+                                                "mandatory_if": null,
+                                                "minimum_role": null
+                                            },
+                                            "extraOptions": {
+                                                "description": "Quantit\u00e9 de l'ingr\u00e9dient",
+                                                "extra": null,
+                                                "clear_on_copy": false,
+                                                "postProcessing": null
+                                            },
+                                            "raw_data": [],
+                                            "migrationOptions": {
+                                                "protected": false
+                                            }
+                                        },
+                                        "orderKey": 0,
+                                        "children": []
+                                    },
+                                    "replaced": []
+                                },
+                                {
+                                    "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                                    "arguments": [],
+                                    "properties": {
+                                        "type": "EMS\\CoreBundle\\Form\\DataField\\ChoiceFieldType",
+                                        "name": "unit",
+                                        "contentType": null,
+                                        "deleted": false,
+                                        "description": null,
+                                        "options": {
+                                            "displayOptions": {
+                                                "label": "Unit\u00e9",
+                                                "class": "col-md-3",
+                                                "lastOfRow": false,
+                                                "helptext": null,
+                                                "multiple": false,
+                                                "expanded": false,
+                                                "select2": false,
+                                                "choices": "kg\ng\nmg\nl\ndl\ncl\nml\ntablespoon\nteaspoon\npinch\npiece\nslice\nclove\nbranch\nsprig\nleaf\nbunch\nbundle\npacket\njar\ncan\nbottle\ncup\nglass\nknob\ndrizzle\ndash\nzest\njuice\nto_taste\nas_needed",
+                                                "labels": "kilogramme\ngramme\nmilligramme\nlitre\nd\u00e9cilitre\ncentilitre\nmillilitre\ncuill\u00e8re \u00e0 soupe\ncuill\u00e8re \u00e0 caf\u00e9\npinc\u00e9e\npi\u00e8ce\ntranche\ngousse\nbranche\nbrin\nfeuille\nbouquet\nbotte\nsachet\nbocal\nbo\u00eete\nbouteille\ntasse\nverre\nnoix\nfilet\ntrait\nzeste\njus\nselon le go\u00fbt\nquantit\u00e9 suffisante",
+                                                "placeholder": null,
+                                                "linked_collection": null,
+                                                "collection_label_field": null
+                                            },
+                                            "mappingOptions": {
+                                                "analyzer": "keyword",
+                                                "copy_to": null
+                                            },
+                                            "restrictionOptions": {
+                                                "mandatory": true,
+                                                "mandatory_if": null,
+                                                "minimum_role": null
+                                            },
+                                            "extraOptions": {
+                                                "description": null,
+                                                "extra": null,
+                                                "clear_on_copy": false,
+                                                "postProcessing": null
+                                            },
+                                            "raw_data": [],
+                                            "migrationOptions": {
+                                                "protected": false
+                                            }
+                                        },
+                                        "orderKey": 1,
+                                        "children": []
+                                    },
+                                    "replaced": []
+                                },
+                                {
+                                    "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                                    "arguments": [],
+                                    "properties": {
+                                        "type": "EMS\\CoreBundle\\Form\\DataField\\TextStringFieldType",
+                                        "name": "name",
+                                        "contentType": null,
+                                        "deleted": false,
+                                        "description": null,
+                                        "options": {
+                                            "displayOptions": {
+                                                "label": "Nom",
+                                                "class": "col-md-6",
+                                                "lastOfRow": false,
+                                                "helptext": null,
+                                                "prefixIcon": null,
+                                                "prefixText": null,
+                                                "suffixIcon": null,
+                                                "suffixText": null,
+                                                "placeholder": null,
+                                                "icon": null
+                                            },
+                                            "mappingOptions": {
+                                                "analyzer": null,
+                                                "copy_to": null
+                                            },
+                                            "restrictionOptions": {
+                                                "mandatory": true,
+                                                "mandatory_if": null,
+                                                "minimum_role": null
+                                            },
+                                            "extraOptions": {
+                                                "description": "Nom de l'ingr\u00e9dient",
+                                                "extra": null,
+                                                "clear_on_copy": false,
+                                                "postProcessing": null
+                                            },
+                                            "raw_data": [],
+                                            "migrationOptions": {
+                                                "protected": false
+                                            }
+                                        },
+                                        "orderKey": 2,
+                                        "children": []
+                                    },
+                                    "replaced": []
+                                }
+                            ]
+                        },
+                        "replaced": []
+                    },
+                    {
+                        "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                        "arguments": [],
+                        "properties": {
+                            "type": "EMS\\CoreBundle\\Form\\DataField\\WysiwygFieldType",
+                            "name": "preparation",
+                            "contentType": null,
+                            "deleted": false,
+                            "description": null,
+                            "options": {
+                                "displayOptions": {
+                                    "label": "Pr\u00e9paration",
+                                    "class": "col-md-12",
+                                    "height": 200,
+                                    "format_tags": null,
+                                    "styles_set": "Default",
+                                    "content_css": null,
+                                    "lastOfRow": false,
+                                    "helptext": null,
+                                    "language": "fr",
+                                    "styles_set_preview": false
+                                },
+                                "mappingOptions": {
+                                    "analyzer": "french",
+                                    "copy_to": null
+                                },
+                                "restrictionOptions": {
+                                    "mandatory": true,
+                                    "mandatory_if": null,
+                                    "minimum_role": null
+                                },
+                                "extraOptions": {
+                                    "description": "Pr\u00e9paration de la recette (au format HTML sans le tag BODY) avec le profile Style Set Standard",
+                                    "extra": null,
+                                    "clear_on_copy": false,
+                                    "postProcessing": null
+                                },
+                                "raw_data": [],
+                                "migrationOptions": {
+                                    "protected": false,
+                                    "transformers": []
+                                }
+                            },
+                            "orderKey": 5,
+                            "children": []
+                        },
+                        "replaced": []
+                    }
+                ]
+            },
+            "replaced": []
+        },
+        "refererFieldName": null,
+        "sortOrder": null,
+        "orderKey": 0,
+        "rootContentType": true,
+        "editTwigWithWysiwyg": true,
+        "webContent": true,
+        "autoPublish": false,
+        "environment": "default",
+        "templates": [],
+        "views": [],
+        "defaultValue": null,
+        "versionTags": [],
+        "versionOptions": {
+            "dates_read_only": true,
+            "dates_interval_one_day": false,
+            "not_blank_new_version": false
+        },
+        "versionFields": {
+            "date_from": null,
+            "date_to": null,
+            "version_tag": null
+        },
+        "roles": {
+            "view": "ROLE_AUTHOR",
+            "create": "ROLE_AUTHOR",
+            "edit": "ROLE_AUTHOR",
+            "publish": "not-defined",
+            "delete": "not-defined",
+            "trash": "not-defined",
+            "archive": "not-defined",
+            "show_link_create": "ROLE_USER",
+            "show_link_search": "not-defined"
+        },
+        "fields": {
+            "display": null,
+            "label": "name",
+            "color": null,
+            "sort": null,
+            "tooltip": null,
+            "circles": null,
+            "business_id": null,
+            "category": null,
+            "asset": null
+        },
+        "settings": {
+            "tasks_enabled": false,
+            "tasks_titles": [],
+            "tasks_helptexts": [],
+            "hide_revision_sidebar": false,
+            "recompute_on_publish": false
+        }
+    },
+    "replaced": []
+}

@@ -1,0 +1,11 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\ManagedAlias",
+    "arguments": [],
+    "properties": {
+        "name": "ma_preview",
+        "label": "Preview MA",
+        "color": "aqua",
+        "extra": null
+    },
+    "replaced": []
+}
