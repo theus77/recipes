@@ -1,2 +1,4 @@
+/dist/
+!/dist/.gitkeep
 /.mcp.json
-.env
+/.env

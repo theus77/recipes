@@ -1,0 +1,54 @@
+services:
+
+  skeleton:
+    image: elasticms/website-skeleton:7.3
+    user: '1000'
+    networks:
+      default:
+        aliases:
+          - preview.recipes.docker
+          - live.recipes.docker
+          - recipes.myam.dk
+    environment:
+      - TZ=Europe/Brussels
+      - APP_ENV=dev
+      - PHP_FPM_MAX_CHILDREN=8
+      - PHP_FPM_REQUEST_MAX_MEMORY_IN_MEGABYTES=128
+      - CONTAINER_HEAP_PERCENT=0.8
+      - EMS_FROM_EMAIL_ADDRESS=my_blog@example.com
+      - EMS_FROM_EMAIL_NAME="Recipes website"
+      - MAILER_URL=smtp://mailserver:1025
+      - 'BACKEND_URL=${BACKEND_URL}'
+      - 'TRUSTED_PROXIES=127.0.0.1,REMOTE_ADDR'
+      - 'TRUSTED_HOSTS=localhost,.*\.localhost,.*\.docker'
+      - 'EMSCH_ASSET_LOCAL_FOLDER=skeleton'
+#      - VARNISH_ENABLED=true
+      - 'EMS_ELASTICSEARCH_HOSTS=${ELASTICSEARCH_CONFIG}'
+    tmpfs:
+      - /opt/sbin:rw,exec,size=8m,mode=1777
+      - /opt/etc:rw,noexec,size=8m,mode=1777
+      - /app/var:rw,exec,size=512m,mode=1777
+      - /app/tmp:rw,noexec,size=64m,mode=1777
+    volumes:
+      - ./configs/admin:/app/src/elasticms/admin
+      - ./configs/document:/app/src/elasticms/document
+      - ./configs/skeleton:/opt/config/elasticms
+      - ./skeleton:/app/src/elasticms/local/cv_v1_preview
+      - ./skeleton:/app/src/elasticms/local/cv_v1_live
+      - ./skeleton:/app/src/elasticms/local/skeleton
+      - ./dist:/app/src/elasticms/public/skeleton:ro
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.recipes.rule=HostRegexp(`.*\\.recipes\\.(localhost|docker)`)|| Host(`recipes.myam.dk`)"
+      - "traefik.http.routers.recipes.entrypoints=web"
+      - "traefik.http.routers.recipes.service=recipes"
+      - "traefik.http.routers.recipes-tls.rule=HostRegexp(`.*\\.recipes\\.(localhost|docker)`) || Host(`recipes.myam.dk`)"
+      - "traefik.http.routers.recipes-tls.entrypoints=websecure"
+      - "traefik.http.routers.recipes-tls.tls=true"
+      - "traefik.http.routers.recipes-tls.service=recipes"
+      - "traefik.http.services.recipes.loadbalancer.server.port=9000"
+
+networks:
+  default:
+    name: skeleton
+    external: true
