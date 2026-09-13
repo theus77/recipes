@@ -1,7 +1,7 @@
 {% extends "@EMSCH/template_ems/view/base_overview.twig" %}
 
 {% block template %}
-    {% set infoEnv = 'overview.legend'|emsco_i18n('en') %}
+    {% set infoEnv = 'overview.legend'|emsco_i18n %}
     <div class="mb-3">
         <h4>Legend for Live</h4>
         {% for info in infoEnv|ems_json_decode %}
@@ -12,7 +12,7 @@
     {% set columns = [] %}
     {% if contentType.name == 'label' %}
         {%- set languages = {'fr': 'French'} -%}
-        {%- set selectedLanguages = app.request.query.all('l')|default(['nl', 'fr']) -%}
+        {%- set selectedLanguages = app.request.query.all('l')|default(['fr']) -%}
 
         {% set columns = [{ "label": "Key", "template": (block('columnKey')),  "orderField": "key"}] %}
 
@@ -49,7 +49,7 @@
     }|json_encode %}
 
     {% set env = 'preview'|emsco_get_environment %}
-    {% set rowContext = "{% set docInfo = [line.data.contentType, line.data.id]|join(':')|emsco_document_info %}{% set revisionId = emsco_get_revision_id(line.data.id, line.data.contentType) %}{% set viewId = #{view.id} %}{% set liveId = 'live'|emsco_get_environment.id %}{% set previewId = 'preview'|emsco_get_environment.id %} {% set infoEnv = #{infoEnv} %}" %}
+    {% set rowContext = "{% set docInfo = [line.data.contentType, line.data.id]|join(':')|emsco_document_info %}{% set revisionId = emsco_get_revision_id(line.data.id, line.data.contentType) %}{% set viewId = #{view.id} %}{% set liveId = 'live'|emsco_get_environment.id %}{% set previewId = 'preview'|emsco_get_environment.id %}{% set infoEnv = #{infoEnv} %}" %}
 
     {{ block('renderDatatable') }}
 {% endblock %}
@@ -73,13 +73,13 @@
 {% endblock %}
 
 {% block columnLanguageNL %}
-    {% verbatim %}
+{% verbatim %}
     <span class="{% if data.source.label_nl is not defined %}text-gray{% endif %}">{{ data.source.label_nl|default('???') }}</span>
 {% endverbatim %}
 {% endblock columnLanguageNL %}
 
 {% block columnLanguageFR %}
-    {% verbatim %}
+{% verbatim %}
     <span class="{% if data.source.label_fr is not defined %}text-gray{% endif %}">{{ data.source.label_fr|default('???') }}</span>
 {% endverbatim %}
 {% endblock columnLanguageFR %}

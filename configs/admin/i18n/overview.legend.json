@@ -1,0 +1,18 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\I18n",
+    "arguments": [],
+    "properties": {
+        "identifier": "overview.legend",
+        "content": [
+            {
+                "locale": "en",
+                "text": "{\n    \"published\" : {\n        \"color\" : \"green\",\n        \"icon\": \"fa fa-check\",\n        \"label\" : \"Last version published in live\"\n    },\n    \"warning\" : {\n        \"color\" : \"orange\",\n        \"icon\": \"fa fa-warning\",\n        \"label\" : \"A version published in live but not the last\"\n    },\n    \"unpublished\" : {\n        \"color\" : \"red\",\n        \"icon\": \"fa fa-times\",\n        \"label\" : \"Nothing is currently published in live for the current document\"\n    }\n}"
+            },
+            {
+                "locale": "fr",
+                "text": "{\n    \"published\" : {\n        \"color\" : \"green\",\n        \"icon\": \"fa fa-check\",\n        \"label\" : \"Derni\u00e8re version publi\u00e9e en live\"\n    },\n    \"warning\" : {\n        \"color\" : \"orange\",\n        \"icon\": \"fa fa-warning\",\n        \"label\" : \"Une version est publi\u00e9e en live mais pas la derni\u00e8re\"\n    },\n    \"unpublished\" : {\n        \"color\" : \"red\",\n        \"icon\": \"fa fa-times\",\n        \"label\" : \"Aucune version n'est actuellement publi\u00e9e\"\n    }\n}"
+            }
+        ]
+    },
+    "replaced": []
+}

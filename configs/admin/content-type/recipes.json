@@ -65,8 +65,8 @@
                                     "icon": null
                                 },
                                 "mappingOptions": {
-                                    "analyzer": null,
-                                    "copy_to": null
+                                    "analyzer": "french",
+                                    "copy_to": "title_fr"
                                 },
                                 "restrictionOptions": {
                                     "mandatory": true,
@@ -85,7 +85,34 @@
                                 }
                             },
                             "orderKey": 0,
-                            "children": []
+                            "children": [
+                                {
+                                    "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                                    "arguments": [],
+                                    "properties": {
+                                        "type": "EMS\\CoreBundle\\Form\\DataField\\SubfieldType",
+                                        "name": "alpha_order",
+                                        "contentType": null,
+                                        "deleted": false,
+                                        "description": null,
+                                        "options": {
+                                            "displayOptions": [],
+                                            "mappingOptions": {
+                                                "analyzer": "alpha_order",
+                                                "fielddata": true
+                                            },
+                                            "extraOptions": {
+                                                "extra": null,
+                                                "clear_on_copy": false,
+                                                "postProcessing": null
+                                            }
+                                        },
+                                        "orderKey": 0,
+                                        "children": []
+                                    },
+                                    "replaced": []
+                                }
+                            ]
                         },
                         "replaced": []
                     },
