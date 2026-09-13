@@ -1,0 +1,78 @@
+{
+    "duration": 30,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "16 \u00e0 20 falafels",
+            "unit": "piece"
+        },
+        {
+            "name": "semoule/couscous",
+            "quantity": 300,
+            "unit": "g"
+        },
+        {
+            "name": "250 \u00e0 300 g de feta",
+            "unit": "g"
+        },
+        {
+            "name": "poivron rouge",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "poivron jaune",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "concombre",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "tomates cerises",
+            "quantity": 250,
+            "unit": "g"
+        },
+        {
+            "name": "petit oignon rouge",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "Salade iceberg restante",
+            "unit": "as_needed"
+        },
+        {
+            "name": "yaourt grec",
+            "quantity": 200,
+            "unit": "g"
+        },
+        {
+            "name": "ail",
+            "quantity": 1,
+            "unit": "clove"
+        },
+        {
+            "name": "cumin",
+            "quantity": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Paprika",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Sel, poivre",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 30 minutes</strong></p><h3>Ingr\u00e9dients</h3><ul><li>16 \u00e0 20 falafels</li><li>300 g de semoule/couscous</li><li>250 \u00e0 300 g de feta</li><li>1 poivron rouge</li><li>1 poivron jaune</li><li>1 concombre</li><li>250 g de tomates cerises</li><li>1 petit oignon rouge</li><li>Salade iceberg restante</li><li>200 g de yaourt grec</li><li>1 gousse d\u2019ail</li><li>1 c. \u00e0 caf\u00e9 de cumin</li><li>Paprika</li><li>Huile neutre</li><li>Sel, poivre</li></ul><h3>Pr\u00e9paration</h3><ol><li>Pr\u00e9chauffer le four \u00e0 200 \u00b0C.</li><li>Couper les poivrons en lani\u00e8res, assaisonner avec un peu d\u2019huile, paprika, sel et poivre et les r\u00f4tir 20 min.</li><li>Cuire ou r\u00e9chauffer les falafels selon les indications.</li><li>Pr\u00e9parer la semoule avec de l\u2019eau bouillante sal\u00e9e selon les proportions du paquet. \u00c9grainer \u00e0 la fourchette.</li><li>Couper concombre, tomates et oignon rouge. \u00c9mincer l\u2019iceberg.</li><li>M\u00e9langer le yaourt avec l\u2019ail tr\u00e8s finement r\u00e2p\u00e9, le cumin, sel et poivre. Ajouter un peu d\u2019eau pour obtenir une sauce fluide.</li><li>Dans chaque bol, r\u00e9partir semoule, salade, l\u00e9gumes crus et poivrons r\u00f4tis.</li><li>Ajouter les falafels et la feta \u00e9miett\u00e9e.</li><li>Terminer avec la sauce au yaourt.</li></ol>",
+    "title": "Bowl m\u00e9diterran\u00e9en aux falafels, semoule & feta",
+    "type": "vegetarian"
+}

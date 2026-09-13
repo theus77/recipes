@@ -1,0 +1,69 @@
+{
+    "duration": 35,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "poulet",
+            "quantity": 600,
+            "unit": "g"
+        },
+        {
+            "name": "courgettes",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "carottes",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "oignon",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "ail",
+            "quantity": 2,
+            "unit": "clove"
+        },
+        {
+            "name": "3 cm de gingembre frais",
+            "unit": "as_needed"
+        },
+        {
+            "name": "lait de coco",
+            "quantity": 400,
+            "unit": "ml"
+        },
+        {
+            "name": "1 \u00e0 2 c. \u00e0 soupe de curry en poudre ou p\u00e2te de curry douce",
+            "unit": "tablespoon"
+        },
+        {
+            "name": "curcuma (facultatif)",
+            "quantity": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "riz basmati",
+            "quantity": 300,
+            "unit": "g"
+        },
+        {
+            "name": "Huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Sel, poivre",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Coriandre fra\u00eeche (facultatif)",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 35 minutes</strong></p><h3>Ingr\u00e9dients</h3><ul><li>600 g de poulet</li><li>2 courgettes</li><li>2 carottes</li><li>1 oignon</li><li>2 gousses d\u2019ail</li><li>3 cm de gingembre frais</li><li>400 ml de lait de coco</li><li>1 \u00e0 2 c. \u00e0 soupe de curry en poudre ou p\u00e2te de curry douce</li><li>1 c. \u00e0 caf\u00e9 de curcuma (facultatif)</li><li>300 g de riz basmati</li><li>Huile neutre</li><li>Sel, poivre</li><li>Coriandre fra\u00eeche (facultatif)</li></ul><h3>Pr\u00e9paration</h3><ol><li>Cuire le riz basmati selon les indications du paquet.</li><li>Couper le poulet en morceaux, les courgettes en demi-rondelles et les carottes en fines rondelles.</li><li>Faire colorer le poulet dans une grande sauteuse avec un peu d\u2019huile pendant 4 \u00e0 5 min. R\u00e9server.</li><li>Faire revenir l\u2019oignon et les carottes 4 min.</li><li>Ajouter les courgettes et cuire encore 3 min.</li><li>Ajouter ail, gingembre, curry et \u00e9ventuellement curcuma. M\u00e9langer pendant 1 min.</li><li>Verser le lait de coco et remettre le poulet.</li><li>Laisser mijoter doucement 8 \u00e0 10 min, jusqu\u2019\u00e0 cuisson compl\u00e8te du poulet et en gardant les courgettes l\u00e9g\u00e8rement fermes.</li><li>Rectifier l\u2019assaisonnement et servir avec le riz. Ajouter \u00e9ventuellement de la coriandre.</li></ol>",
+    "title": "Curry de poulet, courgettes & carottes au lait de coco",
+    "type": "poultry"
+}

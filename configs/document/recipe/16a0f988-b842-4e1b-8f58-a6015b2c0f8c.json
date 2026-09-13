@@ -1,0 +1,85 @@
+{
+    "duration": 30,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "b\u0153uf tendre (rumsteck, steak, bavette\u2026)",
+            "quantity": 600,
+            "unit": "g"
+        },
+        {
+            "name": "600 \u00e0 800 g de nouilles udon pr\u00e9cuites, ou 350 \u00e0 400 g s\u00e8ches",
+            "unit": "g"
+        },
+        {
+            "name": "poivron",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "carottes",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "courgette",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "oignon",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "ail",
+            "quantity": 2,
+            "unit": "clove"
+        },
+        {
+            "name": "2 \u00e0 3 cm de gingembre frais",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Graines de s\u00e9same (facultatif)",
+            "unit": "to_taste"
+        },
+        {
+            "name": "sauce soja",
+            "quantity": 6,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "miel",
+            "quantity": 2,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "huile de s\u00e9same",
+            "quantity": 1.5,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "eau",
+            "quantity": 2,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "vinaigre de riz (facultatif)",
+            "quantity": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "Ma\u00efzena (facultatif)",
+            "quantity": 1,
+            "unit": "teaspoon"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 30 minutes</strong></p><h3>Ingr\u00e9dients</h3><ul><li>600 g de b\u0153uf tendre (rumsteck, steak, bavette\u2026)</li><li>600 \u00e0 800 g de nouilles udon pr\u00e9cuites, ou 350 \u00e0 400 g s\u00e8ches</li><li>1 poivron</li><li>2 carottes</li><li>1 courgette</li><li>1 oignon</li><li>2 gousses d\u2019ail</li><li>2 \u00e0 3 cm de gingembre frais</li><li>Huile neutre</li><li>Graines de s\u00e9same (facultatif)</li></ul><h3>Sauce</h3><ul><li>6 c. \u00e0 soupe de sauce soja</li><li>2 c. \u00e0 soupe de miel</li><li>1\u00bd c. \u00e0 soupe d\u2019huile de s\u00e9same</li><li>2 c. \u00e0 soupe d\u2019eau</li><li>1 c. \u00e0 soupe de vinaigre de riz (facultatif)</li><li>1 c. \u00e0 caf\u00e9 de Ma\u00efzena (facultatif)</li></ul><h3>Pr\u00e9paration</h3><ol><li>Couper le b\u0153uf en fines lamelles, perpendiculairement aux fibres.</li><li>M\u00e9langer 2 c. \u00e0 soupe de sauce soja, 1 c. \u00e0 caf\u00e9 de miel et la moiti\u00e9 du gingembre. Faire mariner le b\u0153uf 10 \u00e0 20 min.</li><li>M\u00e9langer les ingr\u00e9dients restants de la sauce.</li><li>Couper les carottes en b\u00e2tonnets, le poivron et la courgette en lamelles, \u00e9mincer l\u2019oignon et hacher l\u2019ail.</li><li>Pr\u00e9parer les udon selon les indications du paquet et les \u00e9goutter.</li><li>Dans un wok tr\u00e8s chaud avec un peu d\u2019huile, saisir le b\u0153uf en deux fois pendant 60 \u00e0 90 secondes. R\u00e9server.</li><li>Faire sauter oignon et carottes 2 min, ajouter le poivron 2 min, puis courgette, ail et gingembre 1 \u00e0 2 min.</li><li>Ajouter les udon et la sauce. M\u00e9langer \u00e0 feu vif 1 \u00e0 2 min.</li><li>Remettre le b\u0153uf et son jus et cuire encore 30 secondes \u00e0 1 min.</li><li>Parsemer \u00e9ventuellement de graines de s\u00e9same.</li></ol>",
+    "title": "Udon saut\u00e9s au b\u0153uf et l\u00e9gumes",
+    "type": "pasta"
+}

@@ -1,0 +1,72 @@
+{
+    "duration": 40,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "P\u00e2tes (penne, rigatoni ou fusilli)",
+            "quantity": 500,
+            "unit": "g"
+        },
+        {
+            "name": "Aubergines",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "Tomates fra\u00eeches m\u00fbres : 700 \u00e0 800 g, ou 1 bo\u00eete de 800 g de tomates concass\u00e9es",
+            "unit": "g"
+        },
+        {
+            "name": "Mozzarella (boules)",
+            "quantity": 3,
+            "unit": "piece"
+        },
+        {
+            "name": "Roquette (100 \u00e0 125 g)",
+            "unit": "g"
+        },
+        {
+            "name": "Oignon",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "Ail",
+            "quantity": 2,
+            "unit": "clove"
+        },
+        {
+            "name": "Concentr\u00e9 de tomates",
+            "quantity": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "Origan",
+            "quantity": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Basilic : quelques feuilles (facultatif)",
+            "unit": "leaf"
+        },
+        {
+            "name": "Huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Sel",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Poivre",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Parmesan (facultatif)",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p>Pour 4 personnes \u2014 35 \u00e0 40 minutes.</p><ol><li>Couper les aubergines en cubes d\u2019environ 2 cm et les saler l\u00e9g\u00e8rement.</li><li>Les faire dorer dans une grande sauteuse avec 2 \u00e0 3 c. \u00e0 soupe d\u2019huile pendant 10 \u00e0 12 min. Proc\u00e9der en deux fois si n\u00e9cessaire. R\u00e9server.</li><li>Dans la m\u00eame sauteuse, faire revenir l\u2019oignon 3 \u00e0 4 min.</li><li>Ajouter l\u2019ail et le concentr\u00e9 de tomates et cuire encore 1 min.</li><li>Ajouter les tomates, l\u2019origan, sel et poivre. Laisser mijoter 10 \u00e0 15 min sans couvercle.</li><li>Remettre les aubergines et poursuivre 3 \u00e0 4 min.</li><li>Cuire les p\u00e2tes 1 min de moins que le temps indiqu\u00e9. Conserver une tasse d\u2019eau de cuisson.</li><li>Ajouter les p\u00e2tes \u00e0 la sauce avec environ 10 cl d\u2019eau de cuisson. M\u00e9langer \u00e0 feu moyen 1 \u00e0 2 min.</li><li>Hors du feu, incorporer environ 2 boules de mozzarella en morceaux et une grosse poign\u00e9e de roquette.</li><li>Servir avec le reste de mozzarella, de la roquette fra\u00eeche, du poivre et \u00e9ventuellement du parmesan ou du basilic.</li></ol>",
+    "title": "P\u00e2tes aux aubergines, tomates, mozzarella & roquette",
+    "type": "pasta"
+}

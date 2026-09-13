@@ -1,0 +1,88 @@
+{
+    "duration": 90,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "Aubergine (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Huile (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Oignon (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "B\u0153uf (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Ail (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Concentr\u00e9 de tomates (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Carotte (facultatif) (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Tomates concass\u00e9es (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Origan (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Thym (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Feuilles de lasagne (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Mozzarella (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Parmesan (quantit\u00e9 non pr\u00e9cis\u00e9e dans le fichier source)",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Beurre",
+            "quantity": 60,
+            "unit": "g"
+        },
+        {
+            "name": "Farine",
+            "quantity": 60,
+            "unit": "g"
+        },
+        {
+            "name": "Lait",
+            "quantity": 750,
+            "unit": "ml"
+        },
+        {
+            "name": "Muscade",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Sel",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Poivre",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p>Pour 4 personnes \u2014 environ 1 h 30.</p><p>Le fichier source ne pr\u00e9cise les quantit\u00e9s que pour la b\u00e9chamel. Les autres ingr\u00e9dients sont repris des \u00e9tapes, sans quantit\u00e9 invent\u00e9e.</p><ol><li>Couper l\u2019aubergine en tranches de 5 \u00e0 7 mm. Les badigeonner l\u00e9g\u00e8rement d\u2019huile et les cuire 15 \u00e0 20 min \u00e0 200 \u00b0C, en les retournant \u00e0 mi-cuisson.</li><li>Faire revenir l\u2019oignon, puis ajouter le b\u0153uf et le faire colorer.</li><li>Ajouter l\u2019ail, le concentr\u00e9 de tomates, \u00e9ventuellement la carotte finement coup\u00e9e, puis les tomates concass\u00e9es, origan et thym.</li><li>Saler, poivrer et laisser mijoter 25 \u00e0 30 min \u00e0 d\u00e9couvert.</li><li>Pour la b\u00e9chamel, faire fondre le beurre, ajouter la farine et m\u00e9langer 1 min. Incorporer progressivement le lait en fouettant. Cuire jusqu\u2019\u00e0 \u00e9paississement. Assaisonner avec sel, poivre et muscade.</li><li>Dans un plat, d\u00e9poser un peu de bolognaise puis une couche de lasagne.</li><li>Alterner bolognaise, b\u00e9chamel et feuilles de lasagne.</li><li>Au milieu du montage, remplacer une couche de viande par les tranches d\u2019aubergine, un peu de sauce tomate et de b\u00e9chamel.</li><li>Terminer avec b\u00e9chamel, mozzarella et parmesan.</li><li>Cuire environ 35 \u00e0 40 min \u00e0 180 \u00b0C. Laisser reposer 10 min avant de servir.</li></ol>",
+    "title": "Lasagne bolognaise avec couche d\u2019aubergines",
+    "type": "pasta"
+}

@@ -1,0 +1,70 @@
+{
+    "duration": 35,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "350 \u00e0 400 g de nouilles ramen",
+            "unit": "g"
+        },
+        {
+            "name": "b\u0153uf tendre",
+            "quantity": 500,
+            "unit": "g"
+        },
+        {
+            "name": "champignons",
+            "quantity": 400,
+            "unit": "g"
+        },
+        {
+            "name": "pak-cho\u00ef",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "\u0153ufs",
+            "quantity": 4,
+            "unit": "piece"
+        },
+        {
+            "name": "ail",
+            "quantity": 2,
+            "unit": "clove"
+        },
+        {
+            "name": "3 \u00e0 4 cm de gingembre frais",
+            "unit": "as_needed"
+        },
+        {
+            "name": "bouillon de volaille",
+            "quantity": 1.5,
+            "unit": "l"
+        },
+        {
+            "name": "sauce soja",
+            "quantity": 3,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "miso",
+            "quantity": 2,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "huile de s\u00e9same",
+            "quantity": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "Huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Graines de s\u00e9same, oignons jeunes ou piment (facultatif)",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 35 minutes</strong></p><h3>Ingr\u00e9dients</h3><ul><li>350 \u00e0 400 g de nouilles ramen</li><li>500 g de b\u0153uf tendre</li><li>400 g de champignons</li><li>2 pak-cho\u00ef</li><li>4 \u0153ufs</li><li>2 gousses d\u2019ail</li><li>3 \u00e0 4 cm de gingembre frais</li><li>1,5 l de bouillon de volaille</li><li>3 c. \u00e0 soupe de sauce soja</li><li>2 bonnes c. \u00e0 soupe de miso</li><li>1 c. \u00e0 soupe d\u2019huile de s\u00e9same</li><li>Huile neutre</li><li>Graines de s\u00e9same, oignons jeunes ou piment (facultatif)</li></ul><h3>Pr\u00e9paration</h3><ol><li>Cuire les \u0153ufs 6 min 30 dans l\u2019eau bouillante, puis les refroidir imm\u00e9diatement dans de l\u2019eau tr\u00e8s froide et les \u00e9caler.</li><li>Faire revenir doucement l\u2019ail et le gingembre dans un peu d\u2019huile pendant 1 min.</li><li>Ajouter le bouillon et la sauce soja. Faire fr\u00e9mir 10 min.</li><li>Pr\u00e9lever une louche de bouillon, y d\u00e9layer le miso et reverser dans la casserole. Ajouter l\u2019huile de s\u00e9same. Ne plus faire bouillir fortement.</li><li>Ajouter les champignons \u00e9minc\u00e9s et cuire 4 \u00e0 5 min. Ajouter le pak-cho\u00ef pour les 2 \u00e0 3 derni\u00e8res minutes.</li><li>Couper le b\u0153uf en fines lamelles. Le saisir tr\u00e8s rapidement dans une po\u00eale tr\u00e8s chaude pendant 1 \u00e0 2 min. R\u00e9server.</li><li>Cuire les ramen s\u00e9par\u00e9ment selon le paquet et les \u00e9goutter.</li><li>R\u00e9partir les nouilles dans les bols, ajouter l\u00e9gumes et bouillon, puis le b\u0153uf et un \u0153uf coup\u00e9 en deux.</li><li>Ajouter \u00e9ventuellement graines de s\u00e9same, oignon jeune ou piment.</li></ol><h3>Option : \u0153ufs marin\u00e9s au soja</h3><p>Apr\u00e8s cuisson et \u00e9calage, faire mariner les \u0153ufs 2 \u00e0 6 h dans :</p><ul><li>100 ml de sauce soja</li><li>100 ml d\u2019eau</li><li>1 c. \u00e0 soupe de miel ou sucre brun</li><li>2 \u00e0 3 tranches de gingembre</li><li>1 gousse d\u2019ail \u00e9cras\u00e9e</li><li>1 c. \u00e0 soupe de vinaigre de riz (facultatif)</li></ul>",
+    "title": "Ramen au b\u0153uf, champignons, pak-cho\u00ef & \u0153uf mollet",
+    "type": "soup"
+}

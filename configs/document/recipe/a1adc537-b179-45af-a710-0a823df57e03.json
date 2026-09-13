@@ -1,0 +1,69 @@
+{
+    "duration": 30,
+    "for_how_many_people": 8,
+    "ingredients": [
+        {
+            "name": "grandes tortillas",
+            "quantity": 8,
+            "unit": "piece"
+        },
+        {
+            "name": "poulet",
+            "quantity": 300,
+            "unit": "g"
+        },
+        {
+            "name": "cheddar r\u00e2p\u00e9",
+            "quantity": 300,
+            "unit": "g"
+        },
+        {
+            "name": "poivrons",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "oignon",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "paprika fum\u00e9",
+            "quantity": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "cumin",
+            "quantity": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Sel, poivre",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Salsa tomate",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Guacamole",
+            "unit": "as_needed"
+        },
+        {
+            "name": "cr\u00e8me \u00e9paisse ou yaourt grec",
+            "quantity": 200,
+            "unit": "g"
+        },
+        {
+            "name": "Sauce piquante (facultatif)",
+            "unit": "as_needed"
+        }
+    ],
+    "preparation": "<p><strong>Pour 6 \u00e0 8 personnes en en-cas \u2014 environ 30 minutes</strong></p><h3>Ingr\u00e9dients</h3><ul><li>8 grandes tortillas</li><li>300 g de poulet</li><li>300 g de cheddar r\u00e2p\u00e9</li><li>2 poivrons</li><li>1 oignon</li><li>1 c. \u00e0 caf\u00e9 de paprika fum\u00e9</li><li>1 c. \u00e0 caf\u00e9 de cumin</li><li>Huile neutre</li><li>Sel, poivre</li></ul><h3>Pour accompagner</h3><ul><li>Salsa tomate</li><li>Guacamole</li><li>200 g de cr\u00e8me \u00e9paisse ou yaourt grec</li><li>Sauce piquante (facultatif)</li></ul><h3>Pr\u00e9paration</h3><ol><li>Couper le poulet en petits morceaux et les poivrons et l\u2019oignon en fines lamelles.</li><li>Faire revenir le poulet \u00e0 feu vif avec un peu d\u2019huile, paprika, cumin, sel et poivre. R\u00e9server.</li><li>Dans la m\u00eame po\u00eale, faire revenir poivrons et oignon 5 \u00e0 6 min.</li><li>Poser une tortilla dans une grande po\u00eale s\u00e8che.</li><li>R\u00e9partir sur une moiti\u00e9 cheddar, poulet et l\u00e9gumes. Ajouter encore un peu de cheddar puis replier la tortilla.</li><li>Cuire 2 \u00e0 3 min par face \u00e0 feu moyen, jusqu\u2019\u00e0 ce qu\u2019elle soit croustillante et le fromage fondu.</li><li>R\u00e9p\u00e9ter avec les autres tortillas. Pour une version v\u00e9g\u00e9tarienne, omettre simplement le poulet.</li><li>Couper chaque quesadilla en 4 triangles.</li><li>Servir sur un grand plateau avec salsa, guacamole et cr\u00e8me ou yaourt.</li></ol><p>Les quesadillas peuvent \u00eatre pr\u00e9par\u00e9es par fourn\u00e9es et maintenues quelques minutes au four \u00e0 100 \u00b0C avant de servir.</p>",
+    "title": "Quesadillas croustillantes pour soir\u00e9e bi\u00e8res",
+    "type": "snack"
+}

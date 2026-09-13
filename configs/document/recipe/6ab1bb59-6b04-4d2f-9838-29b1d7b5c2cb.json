@@ -1,0 +1,44 @@
+{
+    "duration": 20,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "400 \u00e0 450 g de spaghetti",
+            "unit": "g"
+        },
+        {
+            "name": "150 \u00e0 180 g de guanciale ou pancetta",
+            "unit": "g"
+        },
+        {
+            "name": "jaunes d\u2019\u0153ufs",
+            "quantity": 4,
+            "unit": "piece"
+        },
+        {
+            "name": "\u0153ufs entiers",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "pecorino romano finement r\u00e2p\u00e9",
+            "quantity": 100,
+            "unit": "g"
+        },
+        {
+            "name": "Poivre noir",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Sel pour l\u2019eau des p\u00e2tes",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Salade iceberg en accompagnement",
+            "unit": "as_needed"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 20 minutes</strong></p><h3>Ingr\u00e9dients</h3><ul><li>400 \u00e0 450 g de spaghetti</li><li>150 \u00e0 180 g de guanciale ou pancetta</li><li>4 jaunes d\u2019\u0153ufs</li><li>2 \u0153ufs entiers</li><li>100 g de pecorino romano finement r\u00e2p\u00e9</li><li>Poivre noir</li><li>Sel pour l\u2019eau des p\u00e2tes</li><li>Salade iceberg en accompagnement</li></ul><h3>Pr\u00e9paration</h3><ol><li>Couper le guanciale ou la pancetta en petits b\u00e2tonnets.</li><li>Le faire revenir \u00e0 feu moyen dans une grande po\u00eale, sans ajouter de mati\u00e8re grasse, jusqu\u2019\u00e0 ce qu\u2019il soit dor\u00e9. Couper le feu.</li><li>M\u00e9langer dans un bol les jaunes, les \u0153ufs entiers, le pecorino et beaucoup de poivre noir. On doit obtenir une p\u00e2te \u00e9paisse.</li><li>Cuire les spaghetti al dente dans une eau mod\u00e9r\u00e9ment sal\u00e9e.</li><li>Conserver environ 25 cl d\u2019eau de cuisson avant d\u2019\u00e9goutter.</li><li>Remettre la po\u00eale avec le guanciale \u00e0 temp\u00e9rature douce, ajouter les spaghetti et m\u00e9langer.</li><li>Retirer compl\u00e8tement du feu. Ajouter le m\u00e9lange \u0153ufs-fromage et m\u00e9langer imm\u00e9diatement.</li><li>Ajouter progressivement un peu d\u2019eau de cuisson jusqu\u2019\u00e0 obtenir une sauce brillante et cr\u00e9meuse.</li><li>Servir imm\u00e9diatement avec du pecorino et du poivre.</li></ol><p>Ne pas ajouter de cr\u00e8me : l\u2019\u00e9mulsion des \u0153ufs, du fromage, de la graisse du guanciale et de l\u2019eau de cuisson forme la sauce.</p>",
+    "title": "Spaghetti carbonara",
+    "type": "pasta"
+}

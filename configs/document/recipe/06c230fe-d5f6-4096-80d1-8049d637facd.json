@@ -1,0 +1,44 @@
+{
+    "duration": 10,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "Farine de bl\u00e9",
+            "quantity": 200,
+            "unit": "g"
+        },
+        {
+            "name": "\u0152ufs",
+            "quantity": 3,
+            "unit": "piece"
+        },
+        {
+            "name": "Lait \u00e9cr\u00e9m\u00e9",
+            "quantity": 500,
+            "unit": "ml"
+        },
+        {
+            "name": "Beurre fondu",
+            "quantity": 30,
+            "unit": "g"
+        },
+        {
+            "name": "Sucre",
+            "quantity": 20,
+            "unit": "g"
+        },
+        {
+            "name": "Sel",
+            "quantity": 1,
+            "unit": "pinch"
+        },
+        {
+            "name": "Huile neutre pour la po\u00eale",
+            "quantity": 1,
+            "unit": "tablespoon"
+        }
+    ],
+    "preparation": "<p>Pour 4 personnes, soit environ 12 cr\u00eapes. Pr\u00e9paration : 10 minutes. Repos : 30 minutes. Cuisson : environ 20 minutes.</p><ol><li>Dans un saladier, m\u00e9langer la farine, le sucre et le sel. Creuser un puits et y casser les \u0153ufs.</li><li>Fouetter en incorporant progressivement le lait \u00e9cr\u00e9m\u00e9 pour obtenir une p\u00e2te lisse, sans grumeaux.</li><li>Ajouter le beurre fondu ti\u00e9di et m\u00e9langer. Couvrir et laisser reposer 30 minutes au r\u00e9frig\u00e9rateur.</li><li>Remuer la p\u00e2te. Si elle para\u00eet trop \u00e9paisse, ajouter un peu d'eau : elle doit napper l\u00e9g\u00e8rement la louche tout en restant fluide.</li><li>Chauffer une po\u00eale \u00e0 cr\u00eapes \u00e0 feu moyen-vif et la graisser l\u00e9g\u00e8rement avec l'huile. Verser une petite louche de p\u00e2te et incliner la po\u00eale pour r\u00e9partir une couche fine.</li><li>Cuire environ 1 minute, jusqu'\u00e0 ce que les bords se d\u00e9collent et que le dessous soit dor\u00e9. Retourner et poursuivre la cuisson 30 secondes environ.</li><li>R\u00e9p\u00e9ter jusqu'\u00e0 \u00e9puisement de la p\u00e2te, en graissant l\u00e9g\u00e8rement la po\u00eale au besoin. Empiler les cr\u00eapes sur une assiette et servir avec la garniture de votre choix.</li></ol>",
+    "title": "Cr\u00eapes classiques",
+    "type": "dessert"
+}

@@ -1,0 +1,63 @@
+{
+    "duration": 20,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "poivrons",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "courgettes",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "aubergine",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "200 \u00e0 250 g de feta",
+            "unit": "g"
+        },
+        {
+            "name": "oignon",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "ail",
+            "quantity": 2,
+            "unit": "clove"
+        },
+        {
+            "name": "\u0153uf",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "40 \u00e0 50 g de chapelure",
+            "unit": "g"
+        },
+        {
+            "name": "Origan",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Poivre",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Un peu d\u2019huile",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Sel, si n\u00e9cessaire",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes</strong></p><p><strong>Pr\u00e9paration :</strong> environ 20 minutes</p><p><strong>Cuisson :</strong> 35 \u00e0 40 minutes</p><p><strong>Four :</strong> 190 \u00b0C</p><h3>Ingr\u00e9dients</h3><ul><li>2 poivrons</li><li>2 courgettes</li><li>1 aubergine</li><li>200 \u00e0 250 g de feta</li><li>1 oignon</li><li>2 gousses d\u2019ail</li><li>1 \u0153uf</li><li>40 \u00e0 50 g de chapelure</li><li>Origan</li><li>Poivre</li><li>Un peu d\u2019huile</li><li>Sel, si n\u00e9cessaire</li></ul><h3>Pr\u00e9paration</h3><ol><li>Pr\u00e9chauffer le four \u00e0 <strong>190 \u00b0C</strong>.</li><li>Couper les <strong>poivrons en deux</strong> et retirer les graines et les parties blanches.</li><li>Couper les <strong>courgettes en deux dans la longueur</strong>. Les \u00e9vider l\u00e9g\u00e8rement \u00e0 l\u2019aide d\u2019une cuill\u00e8re en conservant la chair.</li><li>Couper <strong>l\u2019aubergine et la chair des courgettes en petits d\u00e9s</strong>.</li><li>Faire revenir l\u2019oignon \u00e9minc\u00e9 dans un peu d\u2019huile pendant environ <strong>3 minutes</strong>.</li><li>Ajouter l\u2019aubergine et poursuivre la cuisson pendant environ <strong>5 minutes</strong>.</li><li>Ajouter ensuite la courgette et l\u2019ail hach\u00e9. Faire cuire \u00e0 feu assez vif pendant encore <strong>8 \u00e0 10 minutes</strong>, afin que les l\u00e9gumes deviennent tendres et perdent une bonne partie de leur eau.</li><li>Retirer du feu et laisser ti\u00e9dir quelques minutes.</li><li>Ajouter <strong>environ 200 g de feta \u00e9miett\u00e9e</strong>, l\u2019\u0153uf, la chapelure, de l\u2019origan et du poivre. M\u00e9langer. Go\u00fbter avant d\u2019ajouter du sel : la feta est d\u00e9j\u00e0 bien sal\u00e9e.</li><li>Garnir g\u00e9n\u00e9reusement les demi-poivrons et les demi-courgettes avec la farce.</li><li>\u00c9mietter le reste de feta sur le dessus.</li><li>Enfourner pendant <strong>35 \u00e0 40 minutes \u00e0 190 \u00b0C</strong>, jusqu\u2019\u00e0 ce que les l\u00e9gumes soient tendres.</li><li>Pour une finition plus gratin\u00e9e, terminer \u00e9ventuellement par <strong>2 \u00e0 3 minutes sous le gril</strong>.</li></ol><h3>Astuce</h3><p>La combinaison <strong>aubergine + courgette + feta + ail + origan</strong> suffit \u00e0 donner beaucoup de go\u00fbt sans tomate. On peut \u00e9galement ajouter quelques pignons de pin ou des noix concass\u00e9es \u00e0 la farce pour apporter du croquant.</p>",
+    "title": "Poivrons et courgettes farcis \u00e0 l\u2019aubergine et \u00e0 la feta",
+    "type": "vegetarian"
+}

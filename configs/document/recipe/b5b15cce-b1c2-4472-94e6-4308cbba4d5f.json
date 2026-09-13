@@ -1,0 +1,60 @@
+{
+    "duration": 40,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "p\u00e2te feuillet\u00e9e",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "courgette",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "champignons de Paris",
+            "quantity": 120,
+            "unit": "g"
+        },
+        {
+            "name": "200 \u00e0 250 g de feta",
+            "unit": "g"
+        },
+        {
+            "name": "\u0153ufs",
+            "quantity": 3,
+            "unit": "piece"
+        },
+        {
+            "name": "cr\u00e8me",
+            "quantity": 15,
+            "unit": "cl"
+        },
+        {
+            "name": "ail",
+            "quantity": 1,
+            "unit": "clove"
+        },
+        {
+            "name": "origan ou de thym",
+            "quantity": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Poivre",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Un peu d\u2019huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Salade iceberg en accompagnement",
+            "unit": "as_needed"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 40 minutes</strong></p><h3>Ingr\u00e9dients</h3><ul><li>1 p\u00e2te feuillet\u00e9e</li><li>1 courgette</li><li>120 g de champignons de Paris</li><li>200 \u00e0 250 g de feta</li><li>3 \u0153ufs</li><li>15 cl de cr\u00e8me</li><li>1 petite gousse d\u2019ail</li><li>1 c. \u00e0 caf\u00e9 d\u2019origan ou de thym</li><li>Poivre</li><li>Un peu d\u2019huile neutre</li><li>Salade iceberg en accompagnement</li></ul><h3>Pr\u00e9paration</h3><ol><li>Pr\u00e9chauffer le four \u00e0 190 \u00b0C.</li><li>Couper la courgette en fines demi-rondelles et \u00e9mincer les champignons.</li><li>Faire revenir les champignons \u00e0 feu assez vif avec un peu d\u2019huile pendant 3 min.</li><li>Ajouter la courgette et poursuivre 4 \u00e0 5 min. Ajouter l\u2019ail en fin de cuisson. Laisser ti\u00e9dir.</li><li>Foncer un moule avec la p\u00e2te feuillet\u00e9e et piquer le fond.</li><li>M\u00e9langer les \u0153ufs et la cr\u00e8me. Poivrer et ajouter l\u2019origan ou le thym. Saler tr\u00e8s peu, voire pas du tout, \u00e0 cause de la feta.</li><li>R\u00e9partir les l\u00e9gumes sur la p\u00e2te puis \u00e9mietter la feta.</li><li>Verser l\u2019appareil \u0153ufs-cr\u00e8me.</li><li>Cuire 25 \u00e0 30 min, jusqu\u2019\u00e0 ce que la tarte soit bien dor\u00e9e.</li><li>Servir avec la salade iceberg.</li></ol>",
+    "title": "Tarte feuillet\u00e9e courgette, champignons & feta",
+    "type": "quiche_tart"
+}

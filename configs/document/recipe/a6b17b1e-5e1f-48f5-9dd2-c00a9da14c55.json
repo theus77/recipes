@@ -1,0 +1,79 @@
+{
+    "duration": 35,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "600 \u00e0 700 g de poulet",
+            "unit": "g"
+        },
+        {
+            "name": "farfalle",
+            "quantity": 400,
+            "unit": "g"
+        },
+        {
+            "name": "courgettes",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "poivrons",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "oignon",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "ail",
+            "quantity": 2,
+            "unit": "clove"
+        },
+        {
+            "name": "feta",
+            "quantity": 200,
+            "unit": "g"
+        },
+        {
+            "name": "cr\u00e8me",
+            "quantity": 15,
+            "unit": "cl"
+        },
+        {
+            "name": "concentr\u00e9 de tomates",
+            "quantity": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "paprika",
+            "quantity": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "origan",
+            "quantity": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Thym",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Sel, poivre",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Quelques tomates cerises (facultatif)",
+            "unit": "as_needed"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 35 minutes</strong></p><h3>Ingr\u00e9dients</h3><ul><li>600 \u00e0 700 g de poulet</li><li>400 g de farfalle</li><li>2 courgettes</li><li>2 poivrons</li><li>1 oignon</li><li>2 gousses d\u2019ail</li><li>200 g de feta</li><li>15 cl de cr\u00e8me</li><li>1 c. \u00e0 soupe de concentr\u00e9 de tomates</li><li>1 c. \u00e0 caf\u00e9 de paprika</li><li>1 c. \u00e0 caf\u00e9 d\u2019origan</li><li>Thym</li><li>Huile neutre</li><li>Sel, poivre</li><li>Quelques tomates cerises (facultatif)</li></ul><h3>Pr\u00e9paration</h3><ol><li>Couper le poulet en morceaux. Assaisonner avec sel, poivre, paprika et origan.</li><li>Dans une grande sauteuse, colorer le poulet 4 \u00e0 5 min dans un peu d\u2019huile. R\u00e9server.</li><li>Faire revenir l\u2019oignon et les poivrons 4 min.</li><li>Ajouter les courgettes et cuire encore 4 \u00e0 5 min.</li><li>Ajouter l\u2019ail, le concentr\u00e9 de tomates et le thym. Cuire 1 min. Ajouter \u00e9ventuellement les tomates cerises.</li><li>Cuire les farfalle 1 min de moins que le temps indiqu\u00e9. Conserver environ 20 cl d\u2019eau de cuisson.</li><li>Remettre le poulet avec les l\u00e9gumes. Ajouter la cr\u00e8me et environ 10 cl d\u2019eau de cuisson. Laisser mijoter 3 \u00e0 4 min.</li><li>Ajouter les farfalle et m\u00e9langer 1 \u00e0 2 min. Ajouter un peu d\u2019eau de cuisson si n\u00e9cessaire.</li><li>\u00c9mietter les deux tiers de la feta dans les p\u00e2tes et m\u00e9langer bri\u00e8vement.</li><li>Servir avec le reste de feta et un peu d\u2019origan.</li></ol>",
+    "title": "Poulet m\u00e9diterran\u00e9en, farfalle, courgettes, poivrons & feta",
+    "type": "poultry"
+}

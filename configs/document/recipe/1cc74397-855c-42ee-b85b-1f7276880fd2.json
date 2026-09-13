@@ -1,0 +1,72 @@
+{
+    "duration": 20,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "nouilles asiatiques",
+            "quantity": 400,
+            "unit": "g"
+        },
+        {
+            "name": "\u0153ufs",
+            "quantity": 4,
+            "unit": "piece"
+        },
+        {
+            "name": "carotte",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "poivron",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "petit brocoli",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "oignons jeunes",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "ail",
+            "quantity": 2,
+            "unit": "clove"
+        },
+        {
+            "name": "sauce soja",
+            "quantity": 3,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "miel",
+            "quantity": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "huile de s\u00e9same",
+            "quantity": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "eau",
+            "quantity": 2,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "Huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Graines de s\u00e9same (facultatif)",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 20 minutes</strong></p><h3>Ingr\u00e9dients</h3><ul><li>400 g de nouilles asiatiques</li><li>4 \u0153ufs</li><li>1 carotte</li><li>1 poivron</li><li>1 petit brocoli</li><li>2 oignons jeunes</li><li>2 gousses d\u2019ail</li><li>3 c. \u00e0 soupe de sauce soja</li><li>1 c. \u00e0 soupe de miel</li><li>1 c. \u00e0 soupe d\u2019huile de s\u00e9same</li><li>2 c. \u00e0 soupe d\u2019eau</li><li>Huile neutre</li><li>Graines de s\u00e9same (facultatif)</li></ul><h3>Pr\u00e9paration</h3><ol><li>Cuire les nouilles selon le paquet, les \u00e9goutter et r\u00e9server.</li><li>Couper la carotte en fins b\u00e2tonnets, le poivron en lamelles et le brocoli en petites fleurettes.</li><li>M\u00e9langer sauce soja, miel, huile de s\u00e9same et eau.</li><li>Battre les \u0153ufs. Dans un wok tr\u00e8s chaud avec un peu d\u2019huile, les cuire rapidement en les brouillant. R\u00e9server.</li><li>Faire sauter carotte et brocoli 3 min.</li><li>Ajouter le poivron et l\u2019ail et poursuivre 2 \u00e0 3 min. Les l\u00e9gumes doivent rester l\u00e9g\u00e8rement croquants.</li><li>Ajouter les nouilles et la sauce et m\u00e9langer \u00e0 feu vif 1 \u00e0 2 min.</li><li>Remettre les \u0153ufs et ajouter les oignons jeunes.</li><li>Servir imm\u00e9diatement avec \u00e9ventuellement des graines de s\u00e9same.</li></ol>",
+    "title": "Nouilles saut\u00e9es aux l\u00e9gumes & \u0153ufs",
+    "type": "pasta"
+}

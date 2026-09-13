@@ -1,0 +1,72 @@
+{
+    "duration": 75,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "r\u00f4ti de porc de 500 g",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "pommes de terre grenailles",
+            "quantity": 1,
+            "unit": "kg"
+        },
+        {
+            "name": "haricots verts",
+            "quantity": 1,
+            "unit": "kg"
+        },
+        {
+            "name": "\u00e9chalotes ou 1 gros oignon",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "ail",
+            "quantity": 2,
+            "unit": "clove"
+        },
+        {
+            "name": "beurre",
+            "quantity": 25,
+            "unit": "g"
+        },
+        {
+            "name": "huile neutre",
+            "quantity": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "moutarde",
+            "quantity": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "moutarde \u00e0 l\u2019ancienne",
+            "quantity": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "cr\u00e8me",
+            "quantity": 20,
+            "unit": "cl"
+        },
+        {
+            "name": "bouillon de volaille",
+            "quantity": 15,
+            "unit": "cl"
+        },
+        {
+            "name": "Thym",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Sel, poivre",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 1 h 15</strong></p><h3>Ingr\u00e9dients</h3><ul><li>1 r\u00f4ti de porc de 500 g</li><li>1 kg de pommes de terre grenailles</li><li>1 kg de haricots verts</li><li>2 \u00e9chalotes ou 1 gros oignon</li><li>2 gousses d\u2019ail</li><li>25 g de beurre</li><li>1 c. \u00e0 soupe d\u2019huile neutre</li><li>1 c. \u00e0 soupe de moutarde</li><li>1 c. \u00e0 soupe de moutarde \u00e0 l\u2019ancienne</li><li>20 cl de cr\u00e8me</li><li>15 cl de bouillon de volaille</li><li>Thym</li><li>Sel, poivre</li></ul><h3>Pr\u00e9paration</h3><ol><li>Sortir le r\u00f4ti 20 \u00e0 30 min avant cuisson. Pr\u00e9chauffer le four \u00e0 180 \u00b0C chaleur tournante.</li><li>Dans une cocotte, chauffer huile et beurre et colorer le r\u00f4ti sur toutes ses faces environ 5 min.</li><li>Ajouter \u00e9chalotes, ail et thym.</li><li>Laver les grenailles, couper les plus grosses en deux et les disposer autour du r\u00f4ti. Ajouter 10 cl de bouillon.</li><li>Enfourner 45 \u00e0 55 min. Viser environ 63\u201365 \u00b0C \u00e0 c\u0153ur, ou 68 \u00b0C pour une cuisson plus pouss\u00e9e.</li><li>Cuire les haricots verts 7 \u00e0 9 min dans l\u2019eau bouillante sal\u00e9e. \u00c9goutter et les passer avec une noix de beurre, sel et poivre.</li><li>Sortir le r\u00f4ti et le laisser reposer 10 min sous aluminium pos\u00e9 sans serrer. Les grenailles peuvent rester au four pendant ce temps.</li><li>Pour la sauce, d\u00e9glacer le plat avec les 5 cl de bouillon restants. Ajouter les deux moutardes puis la cr\u00e8me. R\u00e9duire 3 \u00e0 5 min.</li><li>Ajouter \u00e0 la sauce le jus rendu par le r\u00f4ti pendant son repos.</li><li>D\u00e9couper le r\u00f4ti et servir avec les grenailles, les haricots et la sauce.</li></ol>",
+    "title": "R\u00f4ti de porc, grenailles & haricots verts",
+    "type": "meat"
+}

@@ -1,0 +1,74 @@
+{
+    "duration": 60,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "riz \u00e0 sushi",
+            "quantity": 500,
+            "unit": "g"
+        },
+        {
+            "name": "eau environ pour la cuisson",
+            "quantity": 750,
+            "unit": "ml"
+        },
+        {
+            "name": "vinaigre de riz",
+            "quantity": 75,
+            "unit": "ml"
+        },
+        {
+            "name": "algue de konbu",
+            "quantity": 1,
+            "unit": "leaf"
+        },
+        {
+            "name": "sucre",
+            "quantity": 40,
+            "unit": "g"
+        },
+        {
+            "name": "sel",
+            "quantity": 10,
+            "unit": "g"
+        },
+        {
+            "name": "350 \u00e0 400 g de saumon (ou de thon rouge) de qualit\u00e9 adapt\u00e9e \u00e0 une consommation crue",
+            "unit": "g"
+        },
+        {
+            "name": "avocat",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "concombre",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "carotte",
+            "quantity": 1,
+            "unit": "piece"
+        },
+        {
+            "name": "6 \u00e0 8 feuilles de nori",
+            "unit": "leaf"
+        },
+        {
+            "name": "Sauce soja",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Wasabi et gingembre marin\u00e9 (facultatif)",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Graines de s\u00e9same (facultatif)",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p><strong>Pour 4 personnes \u2014 environ 1 h</strong></p><h3>Ingr\u00e9dients</h3><h3>Riz</h3><ul><li>500 g de riz \u00e0 sushi</li><li>750 ml d\u2019eau environ pour la cuisson</li><li>75 ml de vinaigre de riz</li><li>1 feuille d'algue de konbu</li><li>40 g de sucre</li><li>10 g de sel</li></ul><h3>Garnitures</h3><ul><li>350 \u00e0 400 g de saumon (ou de thon rouge) de qualit\u00e9 adapt\u00e9e \u00e0 une consommation crue</li><li>1 avocat</li><li>1 concombre</li><li>1 carotte</li><li>6 \u00e0 8 feuilles de nori</li><li>Sauce soja</li><li>Wasabi et gingembre marin\u00e9 (facultatif)</li><li>Graines de s\u00e9same (facultatif)</li></ul><h3>Pr\u00e9paration</h3><ol><li>Rincer soigneusement le riz jusqu\u2019\u00e0 ce que l\u2019eau soit deux fois plus claire.</li><li>Rincer une derni\u00e8re fois le riz sans le remuer et le laisser reposer 10 minutes.</li><li>Cuire le riz, avec l'eau pr\u00e9vue et une feuille de konbu. Couvrir d'un couvercle et ne plus l'ouvrir jusqu'\u00e0 absortion compl\u00e8te.</li><li>Retirer la casserole du feu, d\u00e9poser un torchon propre entre la casserole et le couvercle pour absorber la condensation et laisser reposer 15 minutes.</li><li>Chauffer l\u00e9g\u00e8rement le vinaigre de riz avec le sucre et le sel, sans faire bouillir pendant 10 \u00e0 15 minutes. La marinade doit devenir l\u00e9g\u00e8rement sirupeuse.</li><li>M\u00e9langer la marinade au riz encore chaud.</li><li>\u00c9taler le riz dans un grand plat et le laisser revenir \u00e0 temp\u00e9rature ambiante.</li><li>Couper le saumon, l\u2019avocat, le concombre et la carotte en longs b\u00e2tonnets.</li><li>Pour les makis, poser une feuille de nori sur une natte, r\u00e9partir une fine couche de riz en laissant 2 cm libres sur un bord.</li><li>Disposer la garniture en ligne puis rouler fermement. Humidifier l\u00e9g\u00e8rement le bord libre pour fermer.</li><li>Couper chaque rouleau en 6 \u00e0 8 morceaux avec un couteau bien humide.</li><li>Alterner saumon-avocat-concombre et versions v\u00e9g\u00e9tariennes carotte-concombre-avocat.</li><li>Servir avec sauce soja, wasabi et gingembre marin\u00e9.</li></ol><p>Garder le poisson bien froid jusqu\u2019au montage et utiliser du saumon vendu pour une consommation crue.</p>",
+    "title": "Sushis maison \u2014 saumon, avocat, concombre & l\u00e9gumes",
+    "type": "rice"
+}
