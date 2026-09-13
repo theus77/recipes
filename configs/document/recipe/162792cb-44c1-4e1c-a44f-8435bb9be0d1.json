@@ -1,0 +1,66 @@
+{
+    "duration": 35,
+    "for_how_many_people": 4,
+    "ingredients": [
+        {
+            "name": "Filets de cabillaud (700 \u00e0 800 g)",
+            "quantity": 700,
+            "unit": "g"
+        },
+        {
+            "name": "Pommes de terre farineuses",
+            "quantity": 1,
+            "unit": "kg"
+        },
+        {
+            "name": "Brocolis",
+            "quantity": 2,
+            "unit": "piece"
+        },
+        {
+            "name": "Beurre",
+            "quantity": 40,
+            "unit": "g"
+        },
+        {
+            "name": "Lait (10 \u00e0 15 cl)",
+            "quantity": 10,
+            "unit": "cl"
+        },
+        {
+            "name": "Huile neutre",
+            "unit": "as_needed"
+        },
+        {
+            "name": "Sel, poivre",
+            "unit": "to_taste"
+        },
+        {
+            "name": "Yaourt grec (sauce)",
+            "quantity": 200,
+            "unit": "g"
+        },
+        {
+            "name": "Ciboulette (petite botte, sauce)",
+            "quantity": 1,
+            "unit": "bunch"
+        },
+        {
+            "name": "Moutarde (sauce)",
+            "quantity": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Ail (petite gousse, facultatif, sauce)",
+            "quantity": 1,
+            "unit": "clove"
+        },
+        {
+            "name": "Sel, poivre (sauce)",
+            "unit": "to_taste"
+        }
+    ],
+    "preparation": "<p>Pour 4 personnes &mdash; environ 35 minutes. Pr&eacute;voir 700 &agrave; 800 g de filets de cabillaud et 10 &agrave; 15 cl de lait.</p>\r\n\r\n<ol>\r\n\t<li>&Eacute;plucher les pommes de terre, les couper et les cuire dans l&rsquo;eau froide sal&eacute;e 15 &agrave; 20 min.</li>\r\n\t<li>&Eacute;goutter soigneusement. Ajouter le beurre et &eacute;craser grossi&egrave;rement. Incorporer progressivement le lait chaud. Saler et poivrer.</li>\r\n\t<li>D&eacute;couper les brocolis en fleurettes et les cuire 5 &agrave; 7 min &agrave; la vapeur, ou environ 5 min dans l&rsquo;eau bouillante. Assaisonner.</li>\r\n\t<li>M&eacute;langer le yaourt, la ciboulette cisel&eacute;e, la moutarde, &eacute;ventuellement l&rsquo;ail, sel et poivre. D&eacute;tendre avec un peu d&rsquo;eau si n&eacute;cessaire.</li>\r\n\t<li>&Eacute;ponger le cabillaud, saler et poivrer.</li>\r\n\t<li>Chauffer une po&ecirc;le avec un peu d&rsquo;huile neutre et une noix de beurre.</li>\r\n\t<li>Cuire le cabillaud 3 &agrave; 4 min sans le d&eacute;placer. Retourner d&eacute;licatement et poursuivre 2 &agrave; 4 min selon l&rsquo;&eacute;paisseur.</li>\r\n\t<li>Servir avec l&rsquo;&eacute;cras&eacute;, les brocolis et la sauce yaourt-ciboulette.</li>\r\n</ol>",
+    "title": "Cabillaud, \u00e9cras\u00e9 de pommes de terre & brocolis",
+    "type": "fish"
+}

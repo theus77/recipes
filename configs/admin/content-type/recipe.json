@@ -2,7 +2,7 @@
     "class": "EMS\\CoreBundle\\Entity\\ContentType",
     "arguments": [],
     "properties": {
-        "name": "recipes",
+        "name": "recipe",
         "pluralName": "Recettes",
         "singularName": "Recette",
         "icon": "fa fa-book",
