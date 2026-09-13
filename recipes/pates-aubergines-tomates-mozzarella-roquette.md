@@ -30,4 +30,3 @@
 8. Ajouter les pâtes à la sauce avec environ 10 cl d’eau de cuisson. Mélanger à feu moyen 1 à 2 min.
 9. Hors du feu, incorporer environ 2 boules de mozzarella en morceaux et une grosse poignée de roquette.
 10. Servir avec le reste de mozzarella, de la roquette fraîche, du poivre et éventuellement du parmesan ou du basilic.
-x@
