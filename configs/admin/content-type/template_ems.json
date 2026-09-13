@@ -165,7 +165,7 @@
         },
         "refererFieldName": null,
         "sortOrder": null,
-        "orderKey": 4,
+        "orderKey": 5,
         "rootContentType": false,
         "editTwigWithWysiwyg": false,
         "webContent": false,
@@ -197,10 +197,11 @@
             }
         ],
         "defaultValue": null,
-        "versionTags": null,
+        "versionTags": [],
         "versionOptions": {
             "dates_read_only": true,
-            "dates_interval_one_day": false
+            "dates_interval_one_day": false,
+            "not_blank_new_version": false
         },
         "versionFields": {
             "date_from": null,
@@ -209,13 +210,13 @@
         },
         "roles": {
             "view": "ROLE_ADMIN",
-            "create": "not-defined",
-            "edit": "not-defined",
-            "publish": "not-defined",
-            "delete": "not-defined",
-            "trash": "not-defined",
-            "archive": "not-defined",
-            "show_link_create": "not-defined",
+            "create": "ROLE_ADMIN",
+            "edit": "ROLE_ADMIN",
+            "publish": "ROLE_ADMIN",
+            "delete": "ROLE_ADMIN",
+            "trash": "ROLE_ADMIN",
+            "archive": "ROLE_ADMIN",
+            "show_link_create": "ROLE_ADMIN",
             "show_link_search": "not-defined"
         },
         "fields": {
@@ -232,7 +233,9 @@
         "settings": {
             "tasks_enabled": false,
             "tasks_titles": [],
-            "hide_revision_sidebar": false
+            "tasks_helptexts": [],
+            "hide_revision_sidebar": false,
+            "recompute_on_publish": false
         }
     },
     "replaced": []

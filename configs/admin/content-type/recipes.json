@@ -5,7 +5,7 @@
         "name": "recipes",
         "pluralName": "Recettes",
         "singularName": "Recette",
-        "icon": "fa fa-cutlery",
+        "icon": "fa fa-book",
         "description": null,
         "indexTwig": null,
         "extra": null,

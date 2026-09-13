@@ -34,8 +34,8 @@ services:
       - ./configs/admin:/app/src/elasticms/admin
       - ./configs/document:/app/src/elasticms/document
       - ./configs/skeleton:/opt/config/elasticms
-      - ./skeleton:/app/src/elasticms/local/cv_v1_preview
-      - ./skeleton:/app/src/elasticms/local/cv_v1_live
+      - ./skeleton:/app/src/elasticms/local/recipes_ma_preview
+      - ./skeleton:/app/src/elasticms/local/recipes_ma_live
       - ./skeleton:/app/src/elasticms/local/skeleton
       - ./dist:/app/src/elasticms/public/skeleton:ro
     labels:
