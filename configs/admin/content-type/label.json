@@ -461,13 +461,13 @@
         },
         "roles": {
             "view": "ROLE_WEBMASTER",
-            "create": "ROLE_WEBMASTER",
+            "create": "ROLE_ADMIN",
             "edit": "ROLE_WEBMASTER",
             "publish": "ROLE_WEBMASTER",
-            "delete": "ROLE_WEBMASTER",
-            "trash": "ROLE_WEBMASTER",
+            "delete": "ROLE_ADMIN",
+            "trash": "ROLE_ADMIN",
             "archive": "not-defined",
-            "show_link_create": "ROLE_WEBMASTER",
+            "show_link_create": "not-defined",
             "show_link_search": "not-defined"
         },
         "fields": {

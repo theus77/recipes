@@ -215,8 +215,8 @@
             "publish": "ROLE_ADMIN",
             "delete": "ROLE_ADMIN",
             "trash": "ROLE_ADMIN",
-            "archive": "ROLE_ADMIN",
-            "show_link_create": "ROLE_ADMIN",
+            "archive": "not-defined",
+            "show_link_create": "not-defined",
             "show_link_search": "not-defined"
         },
         "fields": {
