@@ -1,55 +1,116 @@
 services:
 
-  web-local:
-    image: elasticms/website-skeleton:7.3
-    user: '1000'
-    networks:
-      default:
-        aliases:
-          - preview.recipes.docker
-          - live.recipes.docker
-          - recipes.myam.dk
-    environment:
-      - TZ=Europe/Brussels
-      - APP_ENV=dev
-      - PHP_FPM_MAX_CHILDREN=8
-      - PHP_FPM_REQUEST_MAX_MEMORY_IN_MEGABYTES=128
-      - CONTAINER_HEAP_PERCENT=0.8
-      - EMS_FROM_EMAIL_ADDRESS=my_blog@example.com
-      - EMS_FROM_EMAIL_NAME="Recipes website"
-      - MAILER_URL=smtp://mailserver:1025
-      - 'BACKEND_URL=${BACKEND_URL}'
-      - 'TRUSTED_PROXIES=127.0.0.1,REMOTE_ADDR'
-      - 'TRUSTED_HOSTS=localhost,.*\.localhost,.*\.docker'
-      - 'EMSCH_ASSET_LOCAL_FOLDER=skeleton'
-#      - VARNISH_ENABLED=true
-      - 'EMS_ELASTICSEARCH_HOSTS=${ELASTICSEARCH_CONFIG}'
-      - 'EMS_BACKEND_URL=${BACKEND_URL}'
-    tmpfs:
-      - /opt/sbin:rw,exec,size=8m,mode=1777
-      - /opt/etc:rw,noexec,size=8m,mode=1777
-      - /app/var:rw,exec,size=512m,mode=1777
-      - /app/tmp:rw,noexec,size=64m,mode=1777
-    volumes:
-      - ./configs/admin:/app/src/elasticms/admin
-      - ./configs/document:/app/src/elasticms/document
-      - ./configs/skeleton:/opt/config/elasticms
-      - ./skeleton:/app/src/elasticms/local/recipes_ma_preview
-      - ./skeleton:/app/src/elasticms/local/recipes_ma_live
-      - ./skeleton:/app/src/elasticms/local/skeleton
-      - ./dist:/app/src/elasticms/public/skeleton:ro
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.recipes.rule=HostRegexp(`.*\\.recipes\\.(localhost|docker)`)|| Host(`recipes.myam.dk`)"
-      - "traefik.http.routers.recipes.entrypoints=web"
-      - "traefik.http.routers.recipes.service=recipes"
-      - "traefik.http.routers.recipes-tls.rule=HostRegexp(`.*\\.recipes\\.(localhost|docker)`) || Host(`recipes.myam.dk`)"
-      - "traefik.http.routers.recipes-tls.entrypoints=websecure"
-      - "traefik.http.routers.recipes-tls.tls=true"
-      - "traefik.http.routers.recipes-tls.service=recipes"
-      - "traefik.http.services.recipes.loadbalancer.server.port=9000"
+    web-local:
+        image: elasticms/website-skeleton:7.3
+        user: '1000'
+        networks:
+            default:
+                aliases:
+                    - preview.recipes.docker
+                    - live.recipes.docker
+                    - recipes.myam.dk
+        environment:
+            - TZ=Europe/Brussels
+            - APP_ENV=dev
+            - PHP_FPM_MAX_CHILDREN=8
+            - PHP_FPM_REQUEST_MAX_MEMORY_IN_MEGABYTES=128
+            - CONTAINER_HEAP_PERCENT=0.8
+            - EMS_FROM_EMAIL_ADDRESS=my_blog@example.com
+            - EMS_FROM_EMAIL_NAME="Recipes website"
+            - MAILER_URL=smtp://mailserver:1025
+            - 'BACKEND_URL=${BACKEND_URL}'
+            - 'TRUSTED_PROXIES=127.0.0.1,REMOTE_ADDR'
+            - 'TRUSTED_HOSTS=localhost,.*\.localhost,.*\.docker'
+            - 'EMSCH_ASSET_LOCAL_FOLDER=skeleton'
+            #      - VARNISH_ENABLED=true
+            - 'EMS_ELASTICSEARCH_HOSTS=${ELASTICSEARCH_CONFIG}'
+            - 'EMS_BACKEND_URL=${BACKEND_URL}'
+        tmpfs:
+            - /opt/sbin:rw,exec,size=8m,mode=1777
+            - /opt/etc:rw,noexec,size=8m,mode=1777
+            - /app/var:rw,exec,size=512m,mode=1777
+            - /app/tmp:rw,noexec,size=64m,mode=1777
+        volumes:
+            - ./configs/admin:/app/src/elasticms/admin
+            - ./configs/document:/app/src/elasticms/document
+            - ./configs/skeleton:/opt/config/elasticms
+            - ./skeleton:/app/src/elasticms/local/recipes_ma_preview
+            - ./skeleton:/app/src/elasticms/local/recipes_ma_live
+            - ./skeleton:/app/src/elasticms/local/skeleton
+            - ./dist:/app/src/elasticms/public/skeleton:ro
+        labels:
+            - "traefik.enable=true"
+            - "traefik.http.routers.recipes.rule=HostRegexp(`.*\\.recipes\\.(localhost|docker)`)|| Host(`recipes.myam.dk`)"
+            - "traefik.http.routers.recipes.entrypoints=web"
+            - "traefik.http.routers.recipes.service=recipes"
+            - "traefik.http.routers.recipes-tls.rule=HostRegexp(`.*\\.recipes\\.(localhost|docker)`) || Host(`recipes.myam.dk`)"
+            - "traefik.http.routers.recipes-tls.entrypoints=websecure"
+            - "traefik.http.routers.recipes-tls.tls=true"
+            - "traefik.http.routers.recipes-tls.service=recipes"
+            - "traefik.http.services.recipes.loadbalancer.server.port=9000"
+
+    sandbox:
+        image: docker.io/smalswebtech/base-php:8.5-cli-dev
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
+        user: ${DOCKER_USER-1000}
+        env_file:
+            - ./sandbox.env
+        environment:
+            NPM_CONFIG_PREFIX: /home/default/.local/npm
+        volumes:
+            - ./sandbox.passwd:/etc/passwd:ro
+            - ./.sandbox:/home/default:rw
+            - ./:/workspace:rw
+        working_dir: /workspace
+        command:
+            - bash
+            - -lc
+            - |
+                mkdir -p /home/default/.local/bin /home/default/.local/npm/bin /home/default/.config
+                export PATH="/home/default/.local/bin:/home/default/.local/npm/bin:$$PATH"
+                if [ ! -f ~/.gitignore ]; then
+                    echo -e ".idea\nThumbs.db\n.DS_Store\n.vscode\n" > ~/.gitignore
+                    git config --global core.excludesfile ~/.gitignore
+                    git config --global core.autocrlf false
+                    git config --global core.eol lf
+                fi
+                if [ ! -d /home/default/.oh-my-bash ]; then
+                    bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" "" --unattended
+                fi
+                if command -v zsh >/dev/null 2>&1 && [ ! -d /home/default/.oh-my-zsh ]; then
+                    RUNZSH=no CHSH=no KEEP_ZSHRC=yes sh -c "$$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+                fi
+                grep -qxF 'export PATH="/home/default/.local/bin:/home/default/.local/npm/bin:$$PATH"' /home/default/.bashrc || echo 'export PATH="/home/default/.local/bin:/home/default/.local/npm/bin:$$PATH"' >> /home/default/.bashrc
+                grep -qxF "alias pbc='php bin/console'" /home/default/.bashrc || echo "alias pbc='php bin/console'" >> /home/default/.bashrc
+                touch /home/default/.zshrc
+                grep -qxF 'export PATH="/home/default/.local/bin:/home/default/.local/npm/bin:$$PATH"' /home/default/.zshrc || echo 'export PATH="/home/default/.local/bin:/home/default/.local/npm/bin:$$PATH"' >> /home/default/.zshrc
+                grep -qxF "alias pbc='php bin/console'" /home/default/.zshrc || echo "alias pbc='php bin/console'" >> /home/default/.zshrc
+                npm config set prefix /home/default/.local/npm
+                if ! command -v symfony >/dev/null 2>&1; then
+                    curl -sS https://get.symfony.com/cli/installer | bash
+                fi
+                if [ -d /home/default/.symfony5 ]; then
+                    if [ ! -e /home/default/.config/symfony-cli ]; then
+                        mv /home/default/.symfony5 /home/default/.config/symfony-cli
+                    elif [ -z "$$(find /home/default/.config/symfony-cli -mindepth 1 -maxdepth 1 -print -quit)" ]; then
+                        rmdir /home/default/.config/symfony-cli
+                        mv /home/default/.symfony5 /home/default/.config/symfony-cli
+                    fi
+                fi
+                if [ -L /home/default/.local/bin/symfony ] && [ "$$(readlink /home/default/.local/bin/symfony)" = "/home/default/.symfony5/bin/symfony" ]; then
+                    rm /home/default/.local/bin/symfony
+                fi
+                if [ ! -e /home/default/.local/bin/symfony ] && [ -x /home/default/.config/symfony-cli/bin/symfony ]; then
+                    ln -s /home/default/.config/symfony-cli/bin/symfony /home/default/.local/bin/symfony
+                fi
+                exec "$${SHELL:-bash}"
+        stdin_open: true
+        tty: true
+        labels:
+            - "sandbox"
 
 networks:
-  default:
-    name: skeleton
-    external: true
+    default:
+        name: skeleton
+        external: true

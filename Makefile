@@ -25,9 +25,9 @@ help: # Show help for each of the Makefile recipes.
 	@grep -E '(^[a-zA-Z0-9_-]+:.*?##.*$$)|(^##)' Makefile | awk 'BEGIN {FS = ":.*?## "}{printf "\033[32m%-30s\033[0m %s\n", $$1, $$2}' | sed -e 's/\[32m##/[33m/'
 
 ## —— Demo —————————————————————————————————————————————————————————————————————————————————————————————————————————————
-start: ## start docker
+start: init_sandbox.passwd ## start docker
 	@docker compose up -d
-restart: ## restart docker and recreate
+restart: init_sandbox.passwd ## restart docker and recreate
 	@docker compose up -d --force-recreate
 clean: ## delete docker volumes, generated assets and npm dependencies
 	@$(MAKE) -s stop
@@ -45,11 +45,6 @@ update: ## update docker images
 	@docker compose up -d
 clear-cache: ## clear cache
 	@$(RUN_WEB) cache:clear
-init: ## init demo (fresh db)
-	@$(MAKE) -s npm-install
-	@$(MAKE) -s npm-prod
-	@$(MAKE) -s clear-cache
-	@$(MAKE) -s load
 
 ## —— Web ——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 web/%: ## run web command
@@ -88,3 +83,31 @@ npm-watch: ## npm run watch
 	@$(MAKE) npm/"run watch"
 npm-dev: ## npm run dev
 	@$(MAKE) npm/"run dev"
+
+## —— Tools—————————————————————————————————————————————————————————————————————————————————————————————————————————————
+sandbox: ## open a terminal in a development sandbox container
+	@docker compose exec sandbox sh -lc 'exec "$${SHELL:-bash}"'
+
+init_sandbox.passwd:
+	@printf '%s\n' \
+		'root:x:0:0:root:/root:/bin/sh' \
+		'bin:x:1:1:bin:/bin:/sbin/nologin' \
+		'daemon:x:2:2:daemon:/sbin:/sbin/nologin' \
+		'lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin' \
+		'sync:x:5:0:sync:/bin:/bin/sync' \
+		'shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown' \
+		'halt:x:7:0:halt:/sbin:/sbin/halt' \
+		'mail:x:8:12:mail:/var/mail:/sbin/nologin' \
+		'news:x:9:13:news:/usr/lib/news:/sbin:/sbin/nologin' \
+		'uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin' \
+		'cron:x:16:16:cron:/var/spool/cron:/sbin/nologin' \
+		'ftp:x:21:21::/var/lib/ftp:/sbin/nologin' \
+		'sshd:x:22:22:sshd:/dev/null:/sbin/nologin' \
+		'games:x:35:35:games:/usr/games:/sbin/nologin' \
+		'ntp:x:123:123:NTP:/var/empty:/sbin/nologin' \
+		'guest:x:405:100:guest:/dev/null:/sbin/nologin' \
+		'nobody:x:65534:65534:nobody:/:/sbin/nologin' \
+		'www-data:x:82:82::/home/www-data:/sbin/nologin' \
+		'postgres:x:70:70:PostgreSQL user:/var/lib/postgresql:/bin/sh' \
+		'default:x:$(DOCKER_USER):0:default:/home/default:/bin/bash' \
+		> sandbox.passwd

@@ -1,4 +1,8 @@
 /dist/
 !/dist/.gitkeep
+/.sandbox/
+!/.sandbox/.gitkeep
 /.mcp.json
 /.env
+/sandbox.env
+/sandbox.passwd
