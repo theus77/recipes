@@ -1,0 +1,15 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\McpTool",
+    "arguments": [],
+    "properties": {
+        "name": "list_recipes",
+        "label": "list_recipes",
+        "role": "ROLE_AUTHOR",
+        "description": "Liste les recettes disponible, avec une pagination de 10 recettes par page.",
+        "inputSchema": "{{ include('@EMSCH/template_ems/mcp/tools/list_recipes/input_schema.json.twig') }}",
+        "outputSchema": "{{ include('@EMSCH/template_ems/mcp/tools/list_recipes/output_schema.json.twig') }}",
+        "response": "{{ include('@EMSCH/template_ems/mcp/tools/list_recipes/response.json.twig') }}",
+        "enabled": true
+    },
+    "replaced": []
+}

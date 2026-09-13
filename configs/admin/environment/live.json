@@ -1,0 +1,20 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\Environment",
+    "arguments": [],
+    "properties": {
+        "name": "live",
+        "label": "Live",
+        "description": "Publication environment for all content types but media_file",
+        "color": "green",
+        "baseUrl": null,
+        "managed": true,
+        "snapshot": false,
+        "circles": [],
+        "inDefaultSearch": false,
+        "orderKey": 2,
+        "updateReferrers": true,
+        "templatePublication": "{{ block('template_publication', '@EMSCH/template_ems/environment/live.twig') }}",
+        "rolePublish": null
+    },
+    "replaced": []
+}
