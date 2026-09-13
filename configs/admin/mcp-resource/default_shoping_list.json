@@ -1,0 +1,15 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\McpResource",
+    "arguments": [],
+    "properties": {
+        "name": "default_shoping_list",
+        "label": "Liste de course minimum",
+        "uri": "elasticms://resources/default-shoping-list",
+        "role": "ROLE_USER",
+        "description": "Les \u00e9l\u00e9ments de cette liste doivent syst\u00e9matiquement se retrouver dans les liste de course qui sont demand\u00e9e par l'utilisateur.",
+        "mimeType": "application/json",
+        "response": "{{ include('@EMSCH/template_ems/mcp/resources/default-shoping-list.json') }}",
+        "enabled": true
+    },
+    "replaced": []
+}

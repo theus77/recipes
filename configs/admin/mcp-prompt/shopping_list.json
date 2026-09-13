@@ -1,0 +1,14 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\McpPrompt",
+    "arguments": [],
+    "properties": {
+        "name": "shopping_list",
+        "label": "Liste de course",
+        "role": "ROLE_AUTHOR",
+        "description": "Aide l'utilisateur \u00e0 d\u00e9finir une liste de course",
+        "arguments": "{}",
+        "response": "{{ include('@EMSCH/template_ems/mcp/prompts/shopping_list/response.json.twig') }}",
+        "enabled": true
+    },
+    "replaced": []
+}
