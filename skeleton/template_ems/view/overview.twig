@@ -1,0 +1,166 @@
+{% extends "@EMSCH/template_ems/view/base_overview.twig" %}
+
+{% block template %}
+    {% set infoEnv = 'overview.legend'|emsco_i18n('en') %}
+    <div class="mb-3">
+        <h4>Legend for Live</h4>
+        {% for info in infoEnv|ems_json_decode %}
+            <span class="ml-2"><i style="color: {{ info.color }}" class="{{ info.icon }}"></i>  {{ info.label }}</span>
+        {% endfor %}
+    </div>
+
+    {% set columns = [] %}
+    {% if contentType.name == 'label' %}
+        {%- set languages = {'nl': 'Dutch', 'fr': 'French'} -%}
+        {%- set selectedLanguages = app.request.query.all('l')|default(['nl', 'fr']) -%}
+
+        {% set columns = [{ "label": "Key", "template": (block('columnKey')),  "orderField": "key"}] %}
+
+        {% for l, lang in languages|filter((v, k) => k in selectedLanguages) %}
+            {% set columns = columns|merge([{ "label": (lang), "template": (block("columnLanguage#{l|upper}")), "orderField": "label_#{l}.alpha_order"}]) %}
+        {% endfor %}
+    {% elseif contentType.name == 'route' %}
+        {% set columns = [
+            { "label": "#", "template": "{{ data.source.order|default(999) }}", "orderField": "order"},
+            { "label": "Name", "template": (block('columnName')),  "orderField": "name"},
+            { "label": "Path", "template": ((block('columnName')))}
+        ] %}
+    {% elseif contentType.name in ['template', 'template_ems'] %}
+        {% set columns = [ { "label": "Name", "template": (block('columnName')),  "orderField": "name"} ] %}
+    {% elseif contentType.name in ['page', 'news'] %}
+        {% set locales = app.request.server.all['EMSCH_LOCALES']|default('[]')|ems_json_decode %}
+        {% set userPreferredLocale = app.user.localePreferred[0:2] %}
+        {% set userLocale = userPreferredLocale in locales ? userPreferredLocale : 'fr' %}
+        {% set orderField = "display_label_#{userLocale}.alpha_order" %}
+        {% set columns = columns|merge([{ "label": "Label", "template": (block('columnDisplay')), "orderField": orderField}]) %}
+    {% else %}
+        {% set columns = columns|merge([{ "label": "EMS label", "template": (block('columnDisplay')), "orderField": "label.alpha_order"}]) %}
+    {% endif %}
+
+    {% set columns = columns|merge([
+        { "label": "Last Update", "template": (block('columnLastUpdate')), "orderField": "_finalization_datetime"},
+        { "label": "Live", "template": (block('columnLive')) },
+        { "label": "Action", "template": (block('columnAction')) }
+    ]) %}
+
+    {% set envs = {
+        'preview': 'preview'|emsco_get_environment.id,
+        'live': 'live'|emsco_get_environment.id,
+    }|json_encode %}
+
+    {% set env = 'preview'|emsco_get_environment %}
+    {% set rowContext = "{% set docInfo = [line.data.contentType, line.data.id]|join(':')|emsco_document_info %}{% set revisionId = emsco_get_revision_id(line.data.id, line.data.contentType) %}{% set viewId = #{view.id} %}{% set liveId = 'live'|emsco_get_environment.id %}{% set previewId = 'preview'|emsco_get_environment.id %} {% set infoEnv = #{infoEnv} %}" %}
+
+    {{ block('renderDatatable') }}
+{% endblock %}
+
+{% block columnKey %}
+    {% verbatim %}
+    <a href="{{ path('emsco_view_revisions', {ouuid: data.id, type: data.contentType} ) }}">{{ data.source.key }}</a>
+{% endverbatim %}
+{% endblock %}
+
+{% block columnDisplay %}
+    {% verbatim %}
+    <a href="{{path('emsco_view_revisions', {ouuid: data.id, type: data.contentType} ) }}">{{ data|emsco_display }}</a>
+{% endverbatim %}
+{% endblock columnDisplay %}
+
+{% block columnName %}
+    {% verbatim %}
+    <a href="{{path('emsco_view_revisions', {ouuid: data.id, type: data.contentType} ) }}">{{ data.source.name }}</a>
+{% endverbatim %}
+{% endblock %}
+
+{% block columnLanguageNL %}
+    {% verbatim %}
+    <span class="{% if data.source.label_nl is not defined %}text-gray{% endif %}">{{ data.source.label_nl|default('???') }}</span>
+{% endverbatim %}
+{% endblock columnLanguageNL %}
+
+{% block columnLanguageFR %}
+    {% verbatim %}
+    <span class="{% if data.source.label_fr is not defined %}text-gray{% endif %}">{{ data.source.label_fr|default('???') }}</span>
+{% endverbatim %}
+{% endblock columnLanguageFR %}
+
+{% block columnPath %}
+    {% verbatim %}
+    {% set config = data.source.config|default({})|ems_json_decode %}
+    {% set path = config.('path')|default(false) %}
+    {% if path is iterable %}
+        <ul>
+            {% for l, item in path %}
+                <li>{{ l }} : {{ item }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <span class="{% if false == path %}text-gray{% endif %}">{{ path|default('N/A') }}</span>
+    {% endif %}
+{% endverbatim %}
+{% endblock columnPath %}
+
+{% block columnLastUpdate %}
+    {% verbatim %}
+<div style="width: 130px;" data-toggle="tooltip" data-placement="top" aria-hidden="true" title="By {{ data.source._finalized_by }}" >
+    {{ data.source._finalization_datetime|default ? data.source._finalization_datetime|date("d/m/Y (H:i)") : "N.A." }}
+</div>
+{% endverbatim %}
+{% endblock %}
+
+{% block columnLive %}
+    {% verbatim %}
+    <i style="color: {{ docInfo.published('live') and (docInfo.aligned('live') or docInfo.revision('preview').finalizedDate == docInfo.revision('live').finalizedDate) ? infoEnv.published.color : docInfo.published('live') ? infoEnv.warning.color : infoEnv.unpublished.color }}"
+    class="{{ docInfo.published('live') and (docInfo.aligned('live') or docInfo.revision('preview').finalizedDate == docInfo.revision('live').finalizedDate) ? infoEnv.published.icon : docInfo.published('live') ? infoEnv.warning.icon : infoEnv.unpublished.icon }}"
+    title="{{ docInfo.published('live') and (docInfo.aligned('live') or docInfo.revision('preview').finalizedDate == docInfo.revision('live').finalizedDate) ? infoEnv.published.label : docInfo.published('live') ? infoEnv.warning.label : infoEnv.unpublished.label }}"></i>
+{% endverbatim %}
+{% endblock %}
+
+{% block columnAction %}
+    {{ app.request.server.get('EMSCO_TEMPLATE_NAMESPACE') in ['EMSAdminUI/bootstrap5'] ? block('columnActionBS5') : block('columnActionBS3') }}
+{% endblock %}
+
+{% block columnActionBS3 %}
+    {% verbatim %}
+<div class="btn-group btn-group-sm" style="width: 130px;">
+    <a href="{{ docInfo.draft ? path("emsco_edit_revision", {revisionId: revisionId}) : docInfo.aligned("live") ? path("emsco_data_new_draft", {type: data.contentType, ouuid: data.id }) : path("revision.publish_to", {revisionId: revisionId, envId: liveId, redirectToUrl: path("emsco_data_private_view", {viewId: viewId })}) }}" class="btn btn-default" style="width: 100px;">
+        {{ docInfo.draft ? "Edit draft" : docInfo.aligned("live") ? "Edit" : "Publish in live" }}
+    </a>
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        <span class="caret"></span>
+        <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="{{ path("emsco_view_revisions", {ouuid: data.id, type: data.contentType} ) }}">Revision</a>
+        </li>
+        {% if docInfo.draft %}
+            <li><a href="{{ path("revision.publish_to", {revisionId: revisionId, envId: previewId}) }}">Publish in preview</a></li>
+        {% elseif not docInfo.aligned('live') %}
+            <li><a href="{{ path("emsco_data_new_draft", {type: data.contentType, ouuid: data.id }) }}">Edit</a></li>
+        {% endif %}
+    </ul>
+</div>
+{% endverbatim %}
+{% endblock %}
+
+{% block columnActionBS5 %}
+    {% verbatim %}
+<div class="btn-group btn-group-sm" style="width: 130px;">
+    <a href="{{ docInfo.draft ? path("emsco_edit_revision", {revisionId: revisionId}) : docInfo.aligned("live") ? path("emsco_data_new_draft", {type: data.contentType, ouuid: data.id }) : path("revision.publish_to", {revisionId: revisionId, envId: liveId, redirectToUrl: path("emsco_data_private_view", {viewId: viewId })}) }}" class="btn btn-default" style="width: 100px;">
+        {{ docInfo.draft ? "Edit draft" : docInfo.aligned("live") ? "Edit" : "Publish in live" }}
+    </a>
+    <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle Dropdown"></button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="{{ path("emsco_view_revisions", {ouuid: data.id, type: data.contentType} ) }}" class="dropdown-item">Revision</a>
+        </li>
+        {% if docInfo.draft %}
+            <li><a href="{{ path("revision.publish_to", {revisionId: revisionId, envId: previewId}) }}" class="dropdown-item">Publish in preview</a></li>
+        {% elseif not docInfo.aligned('live') %}
+            <li><a href="{{ path("emsco_data_new_draft", {type: data.contentType, ouuid: data.id }) }}" class="dropdown-item">Edit</a></li>
+        {% endif %}
+    </ul>
+</div>
+{% endverbatim %}
+{% endblock %}
