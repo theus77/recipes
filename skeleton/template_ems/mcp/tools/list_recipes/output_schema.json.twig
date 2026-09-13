@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "recipes": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "ouuid": {
+                        "type": "string",
+                        "description": "L'identifiant unique de la recette"
+                    },
+                    "title": {
+                        "type": "string",
+                        "description": "Le nom (en français) de la recette"
+                    },
+                    "duration": {
+                        "type": "integer",
+                        "description": "Le temps de préparation (en minutes)"
+                    }
+                },
+                "required": [
+                    "ouuid",
+                    "title"
+                ],
+                "additionalProperties": false
+            }
+        },
+        "total": {
+            "type": "integer",
+            "description": "Nombre total de recettes dans le CMS"
+        }
+    },
+    "required": [
+        "recipes",
+        "total"
+    ],
+    "additionalProperties": false
+}

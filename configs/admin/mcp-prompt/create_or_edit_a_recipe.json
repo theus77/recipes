@@ -1,0 +1,14 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\McpPrompt",
+    "arguments": [],
+    "properties": {
+        "name": "create_or_edit_a_recipe",
+        "label": "Cr\u00e9er ou editer une recette",
+        "role": "ROLE_AUTHOR",
+        "description": "Aide l'utilisateur \u00e0 cr\u00e9er ou a \u00e9diter une recette.",
+        "arguments": "{{ include('@EMSCH/template_ems/mcp/prompts/create_or_edit_a_recipe/arguments.json.twig') }}",
+        "response": "{{ include('@EMSCH/template_ems/mcp/prompts/create_or_edit_a_recipe/response.json.twig') }}",
+        "enabled": true
+    },
+    "replaced": []
+}

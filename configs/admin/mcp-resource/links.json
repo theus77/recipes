@@ -5,7 +5,7 @@
         "name": "links",
         "label": "Links",
         "uri": "elasticms://resources/links",
-        "role": "ROLE_ADMIN",
+        "role": "ROLE_AUTHOR",
         "description": "Explain how links and file references are represented in elasticMS data fields, assets, and WYSIWYG content. Use this resource when creating or updating CMS documents through MCP tools.",
         "mimeType": "text/markdown",
         "response": "{{ include('@EMSCH/template_ems/mcp/resources/skills/links.md.twig') }}",

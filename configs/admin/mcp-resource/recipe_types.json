@@ -1,0 +1,15 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\McpResource",
+    "arguments": [],
+    "properties": {
+        "name": "recipe_types",
+        "label": "Types des recettes",
+        "uri": "elasticms://resources/recipe_types",
+        "role": "ROLE_AUTHOR",
+        "description": "Tableau associatif des type de recette et leurs label en fran\u00e7ais",
+        "mimeType": "application/json",
+        "response": "{{ include('@EMSCH/template_ems/mcp/resources/types.json') }}",
+        "enabled": true
+    },
+    "replaced": []
+}

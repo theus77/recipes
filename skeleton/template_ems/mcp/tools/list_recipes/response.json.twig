@@ -1,0 +1,9 @@
+{%- set searchResult = emsco_search(environment|default('preview')|emsco_get_environment.alias, contentTypes: ['recipe'], size: 10, from: (page * 10), sort: {'title.alpha_order': 'DESC'}) -%}
+{{- {
+    recipes: searchResult.getDocuments()|map(p => {
+        ouuid: p.id,
+        title: p.getData()['title'],
+        duration: p.getData()['duration'] is defined ? p.getData()['duration'] : null
+    }),
+    total: searchResult.getTotalHits(),
+}|json_encode|raw -}}
