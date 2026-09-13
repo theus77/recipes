@@ -6,13 +6,14 @@
 
 ### Riz
 - 500 g de riz à sushi
-- 650 ml d’eau environ (selon le paquet)
+- 750 ml d’eau environ pour la cuisson
 - 75 ml de vinaigre de riz
-- 35 g de sucre
-- 1 c. à café de sel
+- 1 feuille d'algue de konbu
+- 40 g de sucre
+- 10 g de sel
 
 ### Garnitures
-- 350 à 400 g de saumon de qualité adaptée à une consommation crue
+- 350 à 400 g de saumon (ou de thon rouge) de qualité adaptée à une consommation crue
 - 1 avocat
 - 1 concombre
 - 1 carotte
@@ -23,8 +24,12 @@
 
 ## Préparation
 
-1. Rincer soigneusement le riz jusqu’à ce que l’eau soit presque claire. Le cuire selon les indications du paquet puis le laisser reposer 10 min.
-2. Chauffer légèrement le vinaigre de riz avec le sucre et le sel, sans faire bouillir. Mélanger au riz encore chaud.
+1. Rincer soigneusement le riz jusqu’à ce que l’eau soit deux fois plus claire.
+2. Rincer une dernière fois le riz sans le remuer et le laisser reposer 10 minutes.
+3. Cuire le riz, avec l'eau prévue et une feuille de konbu. Couvrir d'un couvercle et ne plus l'ouvrir jusqu'à absortion complète.
+4. Retirer la casserole du feu, déposer un torchon propre entre la casserole et le couvercle pour absorber la condensation et laisser reposer 15 minutes.
+5. Chauffer légèrement le vinaigre de riz avec le sucre et le sel, sans faire bouillir pendant 10 à 15 minutes. La marinade doit devenir légèrement sirupeuse. 
+3. Mélanger la marinade au riz encore chaud.
 3. Étaler le riz dans un grand plat et le laisser revenir à température ambiante.
 4. Couper le saumon, l’avocat, le concombre et la carotte en longs bâtonnets.
 5. Pour les makis, poser une feuille de nori sur une natte, répartir une fine couche de riz en laissant 2 cm libres sur un bord.

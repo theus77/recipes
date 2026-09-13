@@ -4,9 +4,9 @@
 
 ## Ingrédients
 
-- 1 rôti de porc de 900 g à 1 kg
+- 1 rôti de porc de 500 g
 - 1 kg de pommes de terre grenailles
-- 500 g de haricots verts
+- 1 kg de haricots verts
 - 2 échalotes ou 1 gros oignon
 - 2 gousses d’ail
 - 25 g de beurre
