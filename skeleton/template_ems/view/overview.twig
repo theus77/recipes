@@ -11,7 +11,7 @@
 
     {% set columns = [] %}
     {% if contentType.name == 'label' %}
-        {%- set languages = {'nl': 'Dutch', 'fr': 'French'} -%}
+        {%- set languages = {'fr': 'French'} -%}
         {%- set selectedLanguages = app.request.query.all('l')|default(['nl', 'fr']) -%}
 
         {% set columns = [{ "label": "Key", "template": (block('columnKey')),  "orderField": "key"}] %}
