@@ -1,0 +1,15 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\McpResource",
+    "arguments": [],
+    "properties": {
+        "name": "unit_types",
+        "label": "Types d'unit\u00e9",
+        "uri": "elasticms://resources/units",
+        "role": "ROLE_AUTHOR",
+        "description": "Types d'unit\u00e9 possible pour les ingr\u00e9dients des recettes (kg, g, ...)",
+        "mimeType": "application/json",
+        "response": "{{ include('@EMSCH/template_ems/mcp/resources/units.json') }}",
+        "enabled": true
+    },
+    "replaced": []
+}

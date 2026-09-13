@@ -134,8 +134,8 @@
                                     "multiple": false,
                                     "expanded": false,
                                     "select2": false,
-                                    "choices": "main\nstarter\nsnack\nsauce\ndessert\nsoup",
-                                    "labels": "Plat principal\nEntr\u00e9e\nEn-cas\nSauce\nDessert\nSoupe",
+                                    "choices": "appetizer\nstarter\nsoup\nsalad\nmain_course\nside_dish\npasta\nrice\npizza\nquiche_tart\nsandwich_wrap\nmeat\npoultry\nfish\nseafood\nvegetarian\ndessert\ncake_pastry\nbreakfast\nsnack\nsauce\ndrink\ncocktail\nbread",
+                                    "labels": "Ap\u00e9ritif\nEntr\u00e9e\nSoupe\nSalade\nPlat principal\nAccompagnement\nP\u00e2tes\nRiz\nPizza\nQuiche et tarte sal\u00e9e\nSandwich et wrap\nViande\nVolaille\nPoisson\nFruits de mer\nV\u00e9g\u00e9tarien\nDessert\nG\u00e2teau et p\u00e2tisserie\nPetit-d\u00e9jeuner\nEn-cas\nSauce\nBoisson\nCocktail\nPain",
                                     "placeholder": null,
                                     "linked_collection": null,
                                     "collection_label_field": null
