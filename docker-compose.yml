@@ -1,6 +1,6 @@
 services:
 
-  skeleton:
+  web-local:
     image: elasticms/website-skeleton:7.3
     user: '1000'
     networks:
@@ -24,6 +24,7 @@ services:
       - 'EMSCH_ASSET_LOCAL_FOLDER=skeleton'
 #      - VARNISH_ENABLED=true
       - 'EMS_ELASTICSEARCH_HOSTS=${ELASTICSEARCH_CONFIG}'
+      - 'EMS_BACKEND_URL=${BACKEND_URL}'
     tmpfs:
       - /opt/sbin:rw,exec,size=8m,mode=1777
       - /opt/etc:rw,noexec,size=8m,mode=1777
