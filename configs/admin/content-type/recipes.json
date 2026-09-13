@@ -47,7 +47,7 @@
                         "arguments": [],
                         "properties": {
                             "type": "EMS\\CoreBundle\\Form\\DataField\\TextStringFieldType",
-                            "name": "name",
+                            "name": "title",
                             "contentType": null,
                             "deleted": false,
                             "description": null,
@@ -453,7 +453,7 @@
         },
         "refererFieldName": null,
         "sortOrder": null,
-        "orderKey": 0,
+        "orderKey": 1,
         "rootContentType": true,
         "editTwigWithWysiwyg": true,
         "webContent": true,

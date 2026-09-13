@@ -1,0 +1,263 @@
+{
+    "class": "EMS\\CoreBundle\\Entity\\Form",
+    "arguments": [],
+    "properties": {
+        "name": "search_fields",
+        "label": "Search fields",
+        "orderKey": 7,
+        "fieldType": {
+            "class": "EMS\\CoreBundle\\Entity\\FieldType",
+            "arguments": [],
+            "properties": {
+                "type": "EMS\\CoreBundle\\Form\\DataField\\HolderFieldType",
+                "name": "source",
+                "contentType": null,
+                "deleted": false,
+                "description": null,
+                "options": {
+                    "displayOptions": [],
+                    "restrictionOptions": {
+                        "minimum_role": null
+                    },
+                    "extraOptions": {
+                        "extra": null,
+                        "clear_on_copy": false,
+                        "postProcessing": null,
+                        "description": null
+                    }
+                },
+                "orderKey": 0,
+                "children": [
+                    {
+                        "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                        "arguments": [],
+                        "properties": {
+                            "type": "EMS\\CoreBundle\\Form\\DataField\\ContainerFieldType",
+                            "name": "search_fields",
+                            "contentType": null,
+                            "deleted": false,
+                            "description": null,
+                            "options": {
+                                "displayOptions": {
+                                    "label": "Search Fields",
+                                    "class": "col-md-12 hidden d-none",
+                                    "lastOfRow": false,
+                                    "helptext": null,
+                                    "icon": "fa fa-search",
+                                    "language": null
+                                },
+                                "mappingOptions": [],
+                                "restrictionOptions": {
+                                    "minimum_role": null
+                                },
+                                "extraOptions": {
+                                    "extra": null,
+                                    "clear_on_copy": false,
+                                    "postProcessing": null,
+                                    "description": null
+                                },
+                                "raw_data": []
+                            },
+                            "orderKey": 0,
+                            "children": [
+                                {
+                                    "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                                    "arguments": [],
+                                    "properties": {
+                                        "type": "EMS\\CoreBundle\\Form\\DataField\\TextStringFieldType",
+                                        "name": "title_fr",
+                                        "contentType": null,
+                                        "deleted": false,
+                                        "description": null,
+                                        "options": {
+                                            "displayOptions": {
+                                                "label": "Title Fr",
+                                                "class": "col-md-12",
+                                                "lastOfRow": false,
+                                                "helptext": null,
+                                                "prefixIcon": null,
+                                                "prefixText": null,
+                                                "suffixIcon": null,
+                                                "suffixText": null,
+                                                "placeholder": null,
+                                                "icon": null
+                                            },
+                                            "mappingOptions": {
+                                                "index": null,
+                                                "analyzer": "french_with_synonyms",
+                                                "copy_to": "live_search_fr"
+                                            },
+                                            "restrictionOptions": {
+                                                "mandatory": false,
+                                                "mandatory_if": null,
+                                                "minimum_role": null
+                                            },
+                                            "extraOptions": {
+                                                "extra": null,
+                                                "clear_on_copy": false,
+                                                "postProcessing": "{{ block('search_fields_title_fr_post_processing', '@EMSCH/template_ems/form/search_fields/fields.twig') }}",
+                                                "description": null
+                                            },
+                                            "raw_data": [],
+                                            "migrationOptions": {
+                                                "protected": false
+                                            }
+                                        },
+                                        "orderKey": 0,
+                                        "children": [
+                                            {
+                                                "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                                                "arguments": [],
+                                                "properties": {
+                                                    "type": "EMS\\CoreBundle\\Form\\DataField\\SubfieldType",
+                                                    "name": "alpha_order",
+                                                    "contentType": null,
+                                                    "deleted": false,
+                                                    "description": null,
+                                                    "options": {
+                                                        "displayOptions": [],
+                                                        "mappingOptions": {
+                                                            "index": null,
+                                                            "analyzer": "alpha_order",
+                                                            "fielddata": true
+                                                        },
+                                                        "extraOptions": {
+                                                            "extra": null,
+                                                            "clear_on_copy": false,
+                                                            "postProcessing": null
+                                                        }
+                                                    },
+                                                    "orderKey": 0,
+                                                    "children": []
+                                                },
+                                                "replaced": []
+                                            }
+                                        ]
+                                    },
+                                    "replaced": []
+                                },
+                                {
+                                    "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                                    "arguments": [],
+                                    "properties": {
+                                        "type": "EMS\\CoreBundle\\Form\\DataField\\ComputedFieldType",
+                                        "name": "all_fr",
+                                        "contentType": null,
+                                        "deleted": false,
+                                        "description": null,
+                                        "options": {
+                                            "displayOptions": {
+                                                "label": "All Fr",
+                                                "class": "col-md-12",
+                                                "lastOfRow": false,
+                                                "helptext": null,
+                                                "valueTemplate": null,
+                                                "json": false,
+                                                "displayTemplate": null
+                                            },
+                                            "mappingOptions": {
+                                                "mappingOptions": "{\r\n    \"type\": \"text\",\r\n    \"analyzer\": \"french_with_synonyms\",\r\n    \"copy_to\": [\r\n        \"live_search_fr\"\r\n    ]\r\n}",
+                                                "copy_to": null
+                                            },
+                                            "restrictionOptions": [],
+                                            "extraOptions": {
+                                                "extra": null,
+                                                "clear_on_copy": false,
+                                                "postProcessing": null,
+                                                "description": null,
+                                                "mcpOutputSchema": null
+                                            },
+                                            "raw_data": []
+                                        },
+                                        "orderKey": 2,
+                                        "children": []
+                                    },
+                                    "replaced": []
+                                },
+                                {
+                                    "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                                    "arguments": [],
+                                    "properties": {
+                                        "type": "EMS\\CoreBundle\\Form\\DataField\\ComputedFieldType",
+                                        "name": "live_search",
+                                        "contentType": null,
+                                        "deleted": false,
+                                        "description": null,
+                                        "options": {
+                                            "displayOptions": {
+                                                "label": "Live Search",
+                                                "class": "col-md-12 hidden d-none",
+                                                "lastOfRow": false,
+                                                "helptext": null,
+                                                "valueTemplate": null,
+                                                "json": false,
+                                                "displayTemplate": null
+                                            },
+                                            "mappingOptions": {
+                                                "mappingOptions": "{\r\n    \"type\": \"search_as_you_type\",\r\n    \"analyzer\": \"standard_with_synonyms\"\r\n}",
+                                                "copy_to": null
+                                            },
+                                            "restrictionOptions": [],
+                                            "extraOptions": {
+                                                "extra": null,
+                                                "clear_on_copy": false,
+                                                "postProcessing": null,
+                                                "description": null,
+                                                "mcpOutputSchema": null
+                                            },
+                                            "raw_data": []
+                                        },
+                                        "orderKey": 4,
+                                        "children": []
+                                    },
+                                    "replaced": []
+                                },
+                                {
+                                    "class": "EMS\\CoreBundle\\Entity\\FieldType",
+                                    "arguments": [],
+                                    "properties": {
+                                        "type": "EMS\\CoreBundle\\Form\\DataField\\ComputedFieldType",
+                                        "name": "live_search_fr",
+                                        "contentType": null,
+                                        "deleted": false,
+                                        "description": null,
+                                        "options": {
+                                            "displayOptions": {
+                                                "label": "Live Search Fr",
+                                                "class": "col-md-12",
+                                                "lastOfRow": false,
+                                                "helptext": null,
+                                                "valueTemplate": null,
+                                                "json": false,
+                                                "displayTemplate": null
+                                            },
+                                            "mappingOptions": {
+                                                "mappingOptions": "{\r\n    \"type\": \"search_as_you_type\",\r\n    \"analyzer\": \"french_with_synonyms\"\r\n}",
+                                                "copy_to": null
+                                            },
+                                            "restrictionOptions": [],
+                                            "extraOptions": {
+                                                "extra": null,
+                                                "clear_on_copy": false,
+                                                "postProcessing": null,
+                                                "description": null,
+                                                "mcpOutputSchema": null
+                                            },
+                                            "raw_data": []
+                                        },
+                                        "orderKey": 5,
+                                        "children": []
+                                    },
+                                    "replaced": []
+                                }
+                            ]
+                        },
+                        "replaced": []
+                    }
+                ]
+            },
+            "replaced": []
+        }
+    },
+    "replaced": []
+}

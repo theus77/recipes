@@ -5,7 +5,7 @@
         "name": "add_recipe",
         "label": "Ajouter une recette",
         "role": "ROLE_AUTHOR",
-        "description": "Aide les auteurs à ajouter (ou à mettre à jour) une recette.",
+        "description": "Aide les auteurs \u00e0 ajouter (ou \u00e0 mettre \u00e0 jour) une recette.",
         "arguments": "{{ include('@EMSCH/template_ems/mcp/prompts/add_recipe/arguments.json.twig') }}",
         "response": "{{ include('@EMSCH/template_ems/mcp/prompts/add_recipe/response.json.twig') }}",
         "enabled": true
