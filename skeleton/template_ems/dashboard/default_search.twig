@@ -27,13 +27,25 @@
         </div>
         <div class="box-body">
             {{ emsco_datatable(['preview'],['recipe'], {
+                "query": {
+                    "multi_match": {
+                        "query": "%query%",
+                        "operator": "and",
+                        "type": "bool_prefix",
+                        "fields": [
+                            "live_search_fr",
+                            "live_search_fr._2gram",
+                            "live_search_fr._3gram"
+                        ]
+                    }
+                },
                 "columns": [{
                     "label": "Label",
-                    "template": "{{ data.source.title }}",
+                    "template": "<a href=\"{{ path('emsco_view_revisions', {ouuid: data.id, type: data.contentType} ) }}\">{{ data.source.title }}</a>",
                     "orderField": "title.alpha_order"
                 },{
                     "label": "Type",
-                    "template": "{{ data.type }}",
+                    "template": "{{ {appetizer: 'Apéritif',starter: 'Entrée',soup: 'Soupe',salad: 'Salade',main_course: 'Plat principal',side_dish: 'Accompagnement',pasta: 'Pâtes',rice: 'Riz',pizza: 'Pizza',quiche_tart: 'Quiche et tarte salée',sandwich_wrap: 'Sandwich et wrap',meat: 'Viande',poultry: 'Volaille',fish: 'Poisson',seafood: 'Fruits de mer',vegetarian: 'Végétarien',dessert: 'Dessert',cake_pastry: 'Gâteau et pâtisserie',breakfast: 'Petit-déjeuner',snack: 'En-cas',sauce: 'Sauce',drink: 'Boisson',cocktail: 'Cocktail',bread: 'Pain'}.(data.source.type) }}",
                     "orderField": "type"
                 }]
             }) }}
