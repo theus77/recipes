@@ -5,8 +5,6 @@
 ## Ingrédients
 
 
-
-
 ### Béchamel
 - 60 g de beurre
 - 60 g de farine

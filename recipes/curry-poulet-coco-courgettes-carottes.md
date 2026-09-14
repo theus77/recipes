@@ -4,12 +4,12 @@
 
 ## Ingrédients
 
-- 600 g de poulet
+- 450 g de poulet
 - 2 courgettes
 - 2 carottes
 - 1 oignon
 - 2 gousses d’ail
-- 3 cm de gingembre frais
+- 3 cm de gingembre frais (facultatif)
 - 400 ml de lait de coco
 - 1 à 2 c. à soupe de curry en poudre ou pâte de curry douce
 - 1 c. à café de curcuma (facultatif)
