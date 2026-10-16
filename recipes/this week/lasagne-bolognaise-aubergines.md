@@ -9,7 +9,6 @@
 - 800 g de tomates concassées
 - 2 carottes, 1 oignon, 2 gousses d’ail
 - 2 c. à soupe de concentré de tomate
-- 60 g de beurre, 60 g de farine, 750 ml de lait
 - 200 g de mozzarella, 80 g de parmesan
 - Huile neutre, origan, muscade, sel, poivre
 
