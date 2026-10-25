@@ -1,101 +1,95 @@
 # Liste de courses de la semaine
 
-Quantités pour préparer une fois chacune des sept recettes, pour 4 personnes.
+Quantités pour préparer une fois chacune des cinq recettes, pour 3 personnes.
+
+Quantités des recettes multipliées par 0,75. Les achats à l’unité sont arrondis au-dessus si nécessaire ; les besoins exacts sont précisés. Liste par défaut intégrée : 200 g de gouda et 1 sac poubelle.
 
 ## Recettes incluses
 
-- Lasagne bolognaise avec couche d’aubergines
-- Hachis parmentier aux épinards
-- Spaghetti bolognaise
-- Cabillaud au curry doux, lait de coco et épinards
-- Poulet grec au citron et à l’origan, boulgour aux légumes
-- Shakshuka aux pois chiches, poivrons et feta
-- Galettes de sarrasin aux champignons, épinards et fromage
+- Poulet à l’estragon et à la moutarde, tagliatelles
+- Gratin de chou-fleur, pommes de terre et comté
+- Risotto au potimarron, sauge et parmesan
+- Pitas aux falafels, crudités et tzatziki
+- Boulettes de poulet à la tomate et au basilic, orzo
 
 ## Déjà disponible et exclusions
 
-- Aucun produit déjà disponible ni aucune exclusion signalés ; vérifier les placards avant les achats.
-- Les ingrédients de la béchamel des lasagnes, répétés dans la recette, sont comptés une seule fois.
-- Les ingrédients facultatifs sont indiqués comme tels.
-- Liste par défaut intégrée : 200 g de gouda et 1 sac poubelle.
+- 8 carottes déjà disponibles ; aucune nécessaire pour ces cinq recettes.
 
 ## Alcools et chips
 
-Aucun besoin indiqué dans les recettes ou la liste par défaut.
+- [ ] Vin blanc sec : 7,5 cl (facultatif, pour le risotto)
 
 ## Viandes
 
-- [ ] Bœuf haché : 1,75 kg
-- [ ] Filets de poulet : 650 à 700 g
-
-## Épicerie, sauces, assaisonnements et herbes fraîches
-
-- [ ] Concentré de tomate : 5 c. à soupe
-- [ ] Bouillon de bœuf ou de légumes : de quoi préparer 15 cl, plus 15 cl si utilisé à la place de l’eau dans les spaghetti
-- [ ] Curry doux : 2 c. à café
-- [ ] Cumin moulu : 1 c. à café
-- [ ] Paprika doux : 2 c. à café
-- [ ] Origan séché : 2 c. à café pour le poulet, plus selon le goût pour les lasagnes et les spaghetti
-- [ ] Thym : quantité selon le goût
-- [ ] Muscade : quantité selon le goût
-- [ ] Huile neutre : quantité selon les besoins
-- [ ] Sel et poivre : quantité selon le goût
-- [ ] Persil : facultatif, quantité selon le goût
-
-## Féculents et conserves
-
-- [ ] Feuilles de lasagnes : 12
-- [ ] Spaghetti : 450 g
-- [ ] Riz basmati : 300 g
-- [ ] Boulgour : 300 g
-- [ ] Farine : 60 g
-- [ ] Grandes galettes de sarrasin prêtes à garnir : 8
-- [ ] Pains pita : 4 grands ou 8 petits
-- [ ] Tomates concassées : 2,4 kg (6 boîtes de 400 g)
-- [ ] Pois chiches : 1 boîte de 400 g (environ 240 g égouttés)
-- [ ] Lait de coco : 400 ml
-
-## Légumes et fruits
-
-- [ ] Pommes de terre : 1,2 kg
-- [ ] Épinards frais : 900 g
-- [ ] Carottes : 6
-- [ ] Oignons : 5
-- [ ] Ail : 12 gousses
-- [ ] Échalote : 1
-- [ ] Aubergine : 1
-- [ ] Courgettes : 2
-- [ ] Poivrons : 4, dont au moins 2 rouges
-- [ ] Champignons de Paris : 500 g
-- [ ] Salade verte : 1
-- [ ] Gingembre frais : 2 cm
-- [ ] Citron : 1
-- [ ] Citron vert : 1
-
-## Poissons et alternative végétarienne
-
-- [ ] Cabillaud : 750 à 800 g en 4 portions
-
-## Charcuteries
-
-Aucun besoin indiqué.
-
-## Produits laitiers et œufs
-
-- [ ] Lait : 950 ml
-- [ ] Beurre : 130 g
-- [ ] Mozzarella : 200 g
-- [ ] Parmesan : 140 g
-- [ ] Emmental ou comté râpé : 180 g, plus 70 g facultatifs pour le hachis (250 g au total si retenus)
-- [ ] Feta : 150 g
-- [ ] Yaourt grec : 200 g
-- [ ] Gouda : 200 g (liste par défaut)
-- [ ] Œufs : 4 à 6 pour la shakshuka, plus 4 facultatifs pour les galettes (8 à 10 au total si retenus)
-
-## Surgelés
-
-Aucun besoin indiqué : les épinards sont prévus frais.
+- [ ] Poulet désossé (blancs ou hauts de cuisse) : 487,5 g, soit environ 500 g à acheter
+- [ ] Poulet haché : 487,5 g, soit environ 500 g à acheter
 
 ## Entretien
 
-- [ ] Sacs poubelle : 1 (liste par défaut)
+- [ ] Sac poubelle : 1 (liste par défaut)
+
+## Épicerie, sauces, assaisonnements et herbes fraîches
+
+- [ ] Chapelure : 45 g
+- [ ] Farine : 37,5 g
+- [ ] Noisettes : 37,5 g
+- [ ] Moutarde de Dijon : 1,5 c. à soupe + 0,75 c. à café (pour le poulet et le gratin)
+- [ ] Moutarde à l’ancienne : 0,75 c. à café (facultatif)
+- [ ] Bouillon de volaille : de quoi préparer 7,5 cl
+- [ ] Bouillon de légumes : de quoi préparer 75 à 90 cl
+- [ ] Estragon frais haché : 1,5 c. à soupe (ou 0,75 c. à café séché)
+- [ ] Sauge : 5 à 6 feuilles (besoin calculé : 4,5 à 6)
+- [ ] Basilic : 1 bouquet à acheter (besoin : 0,75 bouquet)
+- [ ] Aneth ou menthe hachée : 0,75 c. à soupe
+- [ ] Origan : 0,75 c. à café
+- [ ] Muscade : selon goût
+- [ ] Huile neutre, sel et poivre : selon les besoins
+- [ ] Paprika fumé : facultatif, pour la variante des pitas
+
+## Féculents et conserves
+
+- [ ] Tagliatelles : 300 g
+- [ ] Riz Arborio ou Carnaroli : 262,5 g
+- [ ] Orzo : 300 g
+- [ ] Pains pita : 6
+- [ ] Tomates concassées : 600 g
+
+## Légumes et fruits
+
+- [ ] Champignons de Paris : 225 g
+- [ ] Chou-fleur : 675 à 750 g de fleurettes
+- [ ] Pommes de terre : 487,5 g, soit environ 500 g à acheter
+- [ ] Potimarron : 525 g avec peau, sans graines
+- [ ] Échalotes : 2 à acheter (besoin total : 1,5)
+- [ ] Oignon : 1 à acheter (besoin : 0,75)
+- [ ] Oignon rouge : 1 à acheter (besoin : 3/8)
+- [ ] Ail : 3 gousses (dont une petite ; besoin : 2,25 gousses + 0,75 petite gousse)
+- [ ] Concombre : 1 à acheter (besoin : 0,75)
+- [ ] Tomates : 3 à acheter (besoin : 2,25)
+- [ ] Petite laitue : 1 à acheter (besoin : 0,75), ou 3/8 d’iceberg
+- [ ] Citron : 1 à acheter (besoin : 3/8)
+
+## Poissons et alternative végétarienne
+
+- [ ] Falafels prêts à cuire : 12 à 15
+
+## Charcuteries
+
+Aucun besoin pour les cinq recettes.
+
+## Produits laitiers et œufs
+
+- [ ] Crème : 15 cl
+- [ ] Lait : 45 cl
+- [ ] Beurre : 82,5 g + un peu pour beurrer le plat
+- [ ] Comté râpé : 90 g
+- [ ] Parmesan : 112,5 g au total (60 g pour le risotto, 52,5 g pour les boulettes et le service)
+- [ ] Yaourt grec : 225 g
+- [ ] Œuf : 1 à acheter (utiliser 3/4 de l’œuf battu pour les boulettes)
+- [ ] Gouda : 200 g (liste par défaut)
+- [ ] Feta : un peu, facultatif pour la variante des pitas (quantité non précisée)
+
+## Surgelés
+
+Aucun besoin spécifique ; les falafels peuvent être achetés surgelés selon le produit choisi.
