@@ -6,11 +6,7 @@ Quantités des recettes multipliées par 0,75. Les achats à l’unité sont arr
 
 ## Recettes incluses
 
-- Poulet à l’estragon et à la moutarde, tagliatelles
-- Gratin de chou-fleur, pommes de terre et comté
-- Risotto au potimarron, sauge et parmesan
-- Pitas aux falafels, crudités et tzatziki
-- Boulettes de poulet à la tomate et au basilic, orzo
+- 
 
 ## Déjà disponible et exclusions
 
